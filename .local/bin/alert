@@ -1,0 +1,4 @@
+#!/bin/sh
+
+notisound=$(find $HOME/.local/share/sounds -type f | shuf -n 1)
+paplay $notisound

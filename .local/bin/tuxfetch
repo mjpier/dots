@@ -1,0 +1,36 @@
+#!/bin/bash
+
+RESET=$(echo -en '\033[0m')  # Resets the color back to white or black 
+RED=$(echo -en '\033[00;31m')  # Sets the color to red
+BLUE=$(echo -en '\033[00;34m')  # Sets the color to blue
+PURPLE=$(echo -en '\033[00;35m')  # Sets the color to purple
+
+OS=`cat /etc/os-release | grep PRETTY_NAME | sed 's/\"//g' | sed 's/.*=//g'`  # Prints the OS name 
+KERNEL=`uname -r`  # Prints the kernel version
+RAM=$(echo "$((`cat /proc/meminfo | grep MemTotal | awk '{print $2}'`/1024))")  # Prints the total RAM 
+RAM_USED=$(echo $((`cat /proc/meminfo | grep MemAvailable | awk '{print $2}'`/1024)))  # Prints the unused RAM capacity  
+RAM_USED=$(echo $((RAM-RAM_USED)))  # Prints the used RAM capacity
+UPTIME=`echo $(uptime | awk '{print $3}' | sed 's/,//g' | sed 's/\:/h /g')m`  # Prints the uptime
+HOSTNAME=`cat /etc/hostname`  # Prints the hostname
+USERNAME=`whoami`  # Prints the username
+LUCKY=`shuf -i 0-100 -n 1`  # Prints a random number from 0 to 100
+ARCH=`uname -m`  # Prints the architecture
+SHL=`basename "${SHELL}"`  # Prints the shell used
+PACKAGES=`pacman -Qq | wc -l`
+
+#if [ $# -ne 0 -a "$1" = "--tags" ] ; then
+#    echo "Working"
+#    exit 0
+#fi
+
+echo -e "                                   "
+echo -e "${RED}  _______ ${RESET}     ${PURPLE}$USERNAME@$HOSTNAME "
+echo -e "${RED} |${RESET}.-----.${RED}|${RESET}     --------- "
+echo -e "${RED} |${RESET}|     |${RED}|${RESET}     ${BLUE}OS: ${RESET}$OS $ARCH "
+echo -e "${RED} |${RESET}|_____/${RED}|${RESET}     ${BLUE}Uptime: ${RESET}$UPTIME "
+echo -e "${RED} |${RESET} .     ${RED}|${RESET}     ${BLUE}Kernel: ${RESET}$KERNEL "
+echo -e "${RED} |${RESET}-|-  oo${RED}|${RESET}     ${BLUE}Packages: ${RESET}$PACKAGES "
+echo -e "${RED} |${RESET}  _ _  ${RED}|${RESET}     ${BLUE}Shell: ${RESET}$SHL "
+echo -e "${RED} |_______/${RESET}     ${BLUE}RAM: ${RESET}$RAM_USED M / $RAM M "
+echo -e "               ${BLUE}Lucky Number: ${RESET}$LUCKY "
+echo -e "                                   "

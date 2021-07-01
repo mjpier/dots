@@ -1,0 +1,41 @@
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +10%
+
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -10%
+
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+XF86AudioPlay
+	playerctl play-pause
+
+XF86AudioNext
+	playerctl next
+
+XF86AudioPrev
+	playerctl previous
+
+super + t
+	alacritty
+
+super + t
+	st
+
+super + e
+	pcmanfm
+
+super + w
+	brave
+
+super + r
+	dmenu_run
+
+Print
+	scrot -d 3 '/home/wc/pix/scrot/%Y-%m-%d-%s\\_$wx$h\\_scrot.png'
+
+Alt + Print
+	scrot -u -d 3 '/home/tsp/wc/scrot/%Y-%m-%d-%s\\_$wx$h\\_scrot.png'
+
+super + \
+	find ~/.local/bin -type f | dmenu -l 30 -p 'Choose script:' | sh

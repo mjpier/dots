@@ -1,0 +1,15 @@
+#!/bin/sh
+
+picom &
+dunst &
+lxsession &
+unclutter --timeout 5 &
+/home/wc/.local/bin/setbg &
+/usr/bin/emacs --daemon &
+slstatus &
+sxhkd &
+xfce4-power-manager &
+xrdb -load ~/.config/x11/xresources &
+xsetroot -cursor_name left_ptr &
+while true; do /home/wc/.local/share/newsup; sleep 900; done &
+exec dwm

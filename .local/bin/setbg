@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo "Chosing a random wallpaper..."
+if [ -z $1 ]; then
+    wall=$(find $HOME/pix/wall -regex ".*\.\(jpg\|png\)" | shuf -n 1)
+else
+    wall="$1"
+fi
+
+echo "Setting up wallpaper..."
+xwallpaper --zoom $wall
+echo "Generating pywal color schemes..."
+wal -q -i $wall
+echo "Recompiling dwm with new colors..."
+(cd $HOME/.local/src/dwm && sudo make clean install > /dev/null)
+echo "^_^ Restart dwm for new colorscheme!"
