@@ -13,7 +13,7 @@
 #### 1. If you want to use this config
 Clone the repo in your HOME directory:
 ```bash
-git clone --bare https://github.com/WitherCubes/dots.git
+git clone --bare https://github.com/WitherCubes/dots.git $HOME/dots
 ```
 
 Define an alias so you can manage your dotfiles from any directory (NOTE: Notice this writes an alias to the .zshrc file, change it if you are using another shell):
