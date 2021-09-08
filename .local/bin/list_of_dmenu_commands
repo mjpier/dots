@@ -1,0 +1,31 @@
+#!/bin/sh
+
+menu(){
+    printf "1. dmemoji: List of emoji to copy paste\n"
+    printf "2. dmlogout: Do all the nasty stuff\n"
+    printf "3. dmwall: Download wallpapers from wallhaven\n"
+    printf "4. setb: SetBG\n"
+}
+
+choice=$(menu | dmenu -p "Run:" -i -l 20 | cut -d. -f1)
+
+case $choice in
+    1)
+    ~/.local/bin/dmemoji
+    break
+    ;;
+    2)
+    ~/.local/bin/dmlogout
+    break
+    ;;
+    3)
+    ~/.local/bin/dmwall
+    break
+    ;;
+    4)
+    ~/.local/bin/setbg
+    break
+    ;;
+    *)
+    ;;
+esac

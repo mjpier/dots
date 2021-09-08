@@ -32,4 +32,4 @@ Print
 	flameshot gui
 
 super + \
-	~/.local/bin/dmemoji
+	~/.local/bin/list_of_dmenu_commands
