@@ -3,8 +3,11 @@
 # profile file. Runs on login. Environmental variables are set here.
 
 export EDITOR="vim"
+export VISUAL="vim"
 export TERMINAL="alacritty"
 export BROWSER="brave"
+export VIDEO="mpv"
+export IMAGE="sxiv"
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
