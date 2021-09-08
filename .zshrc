@@ -51,8 +51,8 @@ setopt SHARE_HISTORY
 
 HISTFILE=~/.cache/.zsh_history
 HIST_STAMPS=dd/mm/yyyy
-HISTSIZE=5000
-SAVEHIST=5000
+HISTSIZE=50000000
+SAVEHIST=50000000
 ZLE_RPROMPT_INDENT=0
 WORDCHARS=${WORDCHARS//\/}
 PROMPT_EOL_MARK=
@@ -262,8 +262,6 @@ alias rickroll="curl -s -L http://bit.ly/10hA8iC | bash"
 alias mirror="sudo reflector --sort rate -l 30 --verbose --save /etc/pacman.d/mirrorlist"
 alias mpv="devour mpv"
 alias sxiv="devour sxiv"
-alias wtb="sudo ifconfig wlp0s20f0u1 down && sudo macchanger -r wlp0s20f0u1 && sudo ifconfig wlp0s20f0u1 up"
-alias etb="sudo ifconfig enp2s0 down && sudo macchanger -r enp2s0 && sudo ifconfig enp2s0 up"
 alias doomsync="~/.emacs.d/bin/doom sync"
 alias doomdoctor="~/.emacs.d/bin/doom doctor"
 alias doomupgrade="~/.emacs.d/bin/doom upgrade"
@@ -271,4 +269,4 @@ alias doompurge="~/.emacs.d/bin/doom purge"
 
 ### Startup
 
-tuxfetch
+pfetch

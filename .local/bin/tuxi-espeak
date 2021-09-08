@@ -1,3 +1,0 @@
-#!/bin/sh
-
-tuxi "$(echo "" | dmenu -p 'Ask Tuxi:')" | espeak -s 140

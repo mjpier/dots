@@ -19,11 +19,8 @@ XF86AudioPrev
 super + t
 	alacritty
 
-super + t
-	st
-
 super + e
-	pcmanfm
+	thunar
 
 super + w
 	brave
@@ -32,10 +29,7 @@ super + r
 	dmenu_run
 
 Print
-	scrot -d 3 '/home/wc/pix/scrot/%Y-%m-%d-%s\\_$wx$h\\_scrot.png'
-
-Alt + Print
-	scrot -u -d 3 '/home/tsp/wc/scrot/%Y-%m-%d-%s\\_$wx$h\\_scrot.png'
+	flameshot gui
 
 super + \
-	find ~/.local/bin -type f | dmenu -l 30 -p 'Choose script:' | sh
+	~/.local/bin/dmemoji
