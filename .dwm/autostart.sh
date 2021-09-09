@@ -10,3 +10,4 @@ nm-applet &
 blueman-applet &
 pasystray &
 flameshot &
+brightnessctl s 5 &

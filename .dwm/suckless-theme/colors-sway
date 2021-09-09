@@ -1,0 +1,21 @@
+set $wallpaper /home/wc/Pictures/wallhaven-5dvv57.jpg
+
+set $background #040918
+set $foreground #89cedb
+
+set $color0 #040918
+set $color1 #5E3293
+set $color2 #1D678E
+set $color3 #A621B7
+set $color4 #E615E7
+set $color5 #A674CB
+set $color6 #1597A6
+set $color7 #89cedb
+set $color8 #5f9099
+set $color9 #5E3293
+set $color10 #1D678E
+set $color11 #A621B7
+set $color12 #E615E7
+set $color13 #A674CB
+set $color14 #1597A6
+set $color15 #89cedb

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/wc/Pictures/dd.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#100e17",
+        "foreground": "#e7e1eb",
+        "cursor": "#e7e1eb"
+    },
+    "colors": {
+        "color0": "#100e17",
+        "color1": "#09A5DB",
+        "color2": "#46A7CD",
+        "color3": "#68A2D9",
+        "color4": "#A291AD",
+        "color5": "#A1A4D7",
+        "color6": "#C6B2D6",
+        "color7": "#e7e1eb",
+        "color8": "#a19da4",
+        "color9": "#09A5DB",
+        "color10": "#46A7CD",
+        "color11": "#68A2D9",
+        "color12": "#A291AD",
+        "color13": "#A1A4D7",
+        "color14": "#C6B2D6",
+        "color15": "#e7e1eb"
+    }
+}

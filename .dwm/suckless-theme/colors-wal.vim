@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/wc/Pictures/wallhaven-5dvv57.jpg"
+let background = "#040918"
+let foreground = "#89cedb"
+let cursor     = "#89cedb"
+
+" Colors
+let color0  = "#040918"
+let color1  = "#5E3293"
+let color2  = "#1D678E"
+let color3  = "#A621B7"
+let color4  = "#E615E7"
+let color5  = "#A674CB"
+let color6  = "#1597A6"
+let color7  = "#89cedb"
+let color8  = "#5f9099"
+let color9  = "#5E3293"
+let color10 = "#1D678E"
+let color11 = "#A621B7"
+let color12 = "#E615E7"
+let color13 = "#A674CB"
+let color14 = "#1597A6"
+let color15 = "#89cedb"

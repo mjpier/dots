@@ -1,11 +1,14 @@
 XF86MonBrightness{Up,Down}
 	brightnessctl s 10{+,-}
 
-XF86Audio{Raise,Lower}Volume
-	pamixer -{i,d} 10 --allow-boost
+XF86AudioRaiseVolume
+	pamixer -i 10 --allow-boost && notify-send "Increased Volume"
+
+XF86AudioLowerVolume
+	pamixer -d 10 --allow-boost && notify-send "Decreased Volume"
 
 XF86AudioMute
-	pamixer --toggle-mute
+	pamixer --toggle-mute && notify-send "Muted/Unmuted Audio"
 
 XF86AudioPlay
 	playerctl play-pause
@@ -31,5 +34,5 @@ super + r
 Print
 	flameshot gui
 
-super + \
-	~/.local/bin/list_of_dmenu_commands
+super + shift + d
+	$HOME/.local/bin/list_of_dmenu_commands

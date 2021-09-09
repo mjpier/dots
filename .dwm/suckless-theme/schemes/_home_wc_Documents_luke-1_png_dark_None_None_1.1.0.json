@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/wc/Documents/luke-1.png",
+    "alpha": "100",
+    "special": {
+        "background": "#262218",
+        "foreground": "#e9e4e3",
+        "cursor": "#e9e4e3"
+    },
+    "colors": {
+        "color0": "#262218",
+        "color1": "#A09867",
+        "color2": "#C19279",
+        "color3": "#A6A593",
+        "color4": "#D4AB9B",
+        "color5": "#D3C6BA",
+        "color6": "#D9D8D5",
+        "color7": "#e9e4e3",
+        "color8": "#a39f9e",
+        "color9": "#A09867",
+        "color10": "#C19279",
+        "color11": "#A6A593",
+        "color12": "#D4AB9B",
+        "color13": "#D3C6BA",
+        "color14": "#D9D8D5",
+        "color15": "#e9e4e3"
+    }
+}
