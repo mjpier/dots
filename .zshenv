@@ -8,6 +8,7 @@ export TERMINAL="alacritty"
 export BROWSER="brave"
 export VIDEO="mpv"
 export IMAGE="sxiv"
+export PATH=$HOME/.local/bin:$PATH
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -37,8 +38,14 @@ export ELECTRUMDIR="${XDG_DATA_HOME:-$HOME/.local/share}/electrum"
 export LC_CTYPE="en_US.utf8"
 export DICS="/usr/share/stardict/dic/"
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
-export LESSOPEN="| /usr/bin/highlight -O ansi %s 2>/dev/null"
 export QT_QPA_PLATFORMTHEME="gtk2"	# Have QT use gtk2 theme.
 export MOZ_USE_XINPUT2="1"		# Mozilla smooth scrolling/touchpads.
 export AWT_TOOLKIT="MToolkit wmname LG3D"	#May have to install wmname
 export _JAVA_AWT_WM_NONREPARENTING=1	# Fix for Java applications in dwm
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'

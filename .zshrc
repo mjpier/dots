@@ -58,7 +58,6 @@ WORDCHARS=${WORDCHARS//\/}
 PROMPT_EOL_MARK=
 TIMEFMT=$'real\t%E\nuser\t%U\nsys\t%S\ncpu\t%P'
 
-
 # ZSH completion system
 autoload -Uz compinit
 compinit -d ~/.cache/zcompdump
@@ -75,11 +74,6 @@ zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p
 zstyle ':completion:*' use-compctl false
 zstyle ':completion:*' verbose true
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
-
-### Export ~/.loal/bin
-if [ -d "$HOME/.local/bin" ] ;
-  then PATH="$HOME/.local/bin:$PATH"
-fi
 
 # Key bindings
 bindkey -v
@@ -102,21 +96,9 @@ bindkey ' ' magic-space
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b"
 
 # ----------------------------------- MISC -----------------------------------
-export VISUAL=vim
-export EDITOR=$VISUAL
 
 # enable terminal linewrap
 setterm -linewrap on 2> /dev/null
-
-# colorize man pages
-export LESS_TERMCAP_mb=$'\e[1;32m'
-export LESS_TERMCAP_md=$'\e[1;32m'
-export LESS_TERMCAP_me=$'\e[0m'
-export LESS_TERMCAP_se=$'\e[0m'
-export LESS_TERMCAP_so=$'\e[01;33m'
-export LESS_TERMCAP_ue=$'\e[0m'
-export LESS_TERMCAP_us=$'\e[1;4;31m'
-export LESSHISTFILE=-
 
 # colorize ls
 [ -x /usr/bin/dircolors ] && eval "$(dircolors -b)"
