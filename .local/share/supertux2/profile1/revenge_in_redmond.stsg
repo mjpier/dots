@@ -1,0 +1,65 @@
+(supertux-savegame
+  (version 1)
+  (title "Revenge in Redmond (0/6)")
+  (tux
+    (bonus "none")
+    (fireflowers 0)
+    (iceflowers 0)
+    (airflowers 0)
+    (earthflowers 0)
+    (coins 100)
+    (worldmap-sprite "images/worldmap/common/tux.sprite")
+    (last-worldmap "")
+  )
+  (state
+    ("worlds"
+      ("/levels/revenge_in_redmond/worldmap.stwm"
+        ("levels"
+          ("deep_cave.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("nostalgia.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("retro_age.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("redmond_headquarters.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("long_office_nights.stl"
+            (perfect #f)
+            (solved #f)
+          )
+          ("its_been_ages.stl"
+            (perfect #f)
+            (solved #f)
+          )
+        )
+        ("tux"
+          (y 9)
+          (x 29)
+          (back "none")
+        )
+        ("tilemaps"
+          ("decal"
+            (alpha 1)
+          )
+          ("snow"
+            (alpha 1)
+          )
+          ("watereffect"
+            (alpha 1)
+          )
+          ("water"
+            (alpha 1)
+          )
+        )
+      )
+    )
+  )
+)
