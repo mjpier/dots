@@ -202,23 +202,19 @@ ex ()
 
 ### My Stupid Functions
 
-fcd()
-{
+fcd() {
 cd "$(find -type d | fzf)"
 }
 
-fopen()
-{
+fopen() {
 xdg-open "$(find -type f | fzf)"
 }
 
-fhistory()
-{
+fhistory() {
 history | cut -c 8- | sort | uniq | fzf | tr -d '\n' | xclip -selection c
 }
 
-countdown()
-{
+countdown() {
 date1=$((`date +%s` + $1)); 
 while [ "$date1" -ge `date +%s` ]; do 
 echo -ne "$(date -u --date @$(($date1 - `date +%s`)) +%H:%M:%S)\r";
@@ -226,8 +222,7 @@ sleep 0.1
 done
 }
 
-stopwatch()
-{
+stopwatch() {
 date1=`date +%s`; 
 while true; do 
 echo -ne "$(date -u --date @$((`date +%s` - $date1)) +%H:%M:%S)\r"; 
@@ -235,6 +230,21 @@ sleep 0.1
 done
 }
 
+_totp() {
+    local prefix="${PASSWORD_STORE_DIR:-$HOME/.password-store}"
+    _values 'services' \
+        ${$(find -L "$prefix" \( -name .git -o \
+                                 -name .gitattributes -o \
+                                 -name .gpg-id \) -prune -o $@ -print 2>/dev/null | \
+          sed -e '/\/code\.gpg$/ {
+                     '"s#${prefix}/2fa/\{0,1\}##"'
+                     s#\\#\\\\#
+                     s#/code\.gpg$##
+                     p
+                 }
+                 d' | \
+          sort):-""}
+}
 
 ### My Foolish aliases
 
