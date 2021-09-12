@@ -1,12 +1,9 @@
 #!/bin/sh
 
-echo "Chosing a random wallpaper..."
 if [ -z $1 ]; then
     wall=$(find $HOME/pix/wall -regex ".*\.\(jpg\|png\)" | shuf -n 1)
 else
     wall="$1"
 fi
 
-echo "Setting up wallpaper..."
 xwallpaper --zoom $wall
-echo "^_^ Done!"

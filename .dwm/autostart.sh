@@ -1,7 +1,7 @@
 picom &
 dunst &
 lxsession &
-/home/wc/.local/bin/setbg &
+$HOME/.local/bin/setbg &
 dwmblocks &
 sxhkd &
 xfce4-power-manager &
