@@ -37,5 +37,7 @@ cursor:
 
   unfocused_hollow: false
 
+draw_bold_text_with_bright_colors: true
+
 ## Live config reload
 live_config_reload: true

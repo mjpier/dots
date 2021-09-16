@@ -19,7 +19,7 @@ XF86AudioNext
 XF86AudioPrev
 	playerctl previous
 
-super + t
+super + Return
 	alacritty
 
 super + e
