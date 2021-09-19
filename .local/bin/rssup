@@ -1,0 +1,10 @@
+#!/bin/sh
+
+ping -q -c 1 example.org > /dev/null || exit
+
+pgrep -f newsboat$ && xdotool key --window "$(/usr/bin/xdotool search --name newsboat)" R && exit
+
+echo QQQ > /tmp/newsupdate
+
+newsboat -x reload
+rm -f /tmp/newsupdate

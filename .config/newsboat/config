@@ -1,4 +1,4 @@
-auto-reload yes
+auto-reload no
 
 color listnormal cyan default
 color listfocus black yellow standout bold
@@ -8,7 +8,7 @@ color info red black bold
 color article white default bold
 
 macro b set browser "brave %u" ; open-in-browser ; set browser "brave %u"
-macro m set browser "mpv %u" ; open-in-browser ; set browser "brave %u"
+macro m set browser "devour mpv --ytdl-format=22 %u" ; open-in-browser ; set browser "brave %u"
 
 highlight all "---.*---" yellow
 highlight feedlist ".*(0/0))" black
