@@ -2,10 +2,8 @@
 COLOR_SCHEME=dark # dark/light
 
 ### Common Aliases
-alias cp='cp -i'
-alias rm='rm -i'
-alias mv='mv -i'
-command -v vim > /dev/null && alias vi='vim'
+command -v nvim > /dev/null && alias vi='nvim'
+command -v nvim > /dev/null && alias vim='nvim'
 
 ### Colorize commands
 alias ls='lsd --color=auto'

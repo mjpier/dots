@@ -2,8 +2,8 @@
 
 # profile file. Runs on login. Environmental variables are set here.
 
-export EDITOR="vim"
-export VISUAL="vim"
+export EDITOR="nvim"
+export VISUAL="nvim"
 export TERMINAL="alacritty"
 export BROWSER="brave"
 export VIDEO="mpv"
@@ -38,10 +38,10 @@ export ELECTRUMDIR="${XDG_DATA_HOME:-$HOME/.local/share}/electrum"
 export LC_CTYPE="en_US.utf8"
 export DICS="/usr/share/stardict/dic/"
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
-export QT_QPA_PLATFORMTHEME="gtk2"	# Have QT use gtk2 theme.
-export MOZ_USE_XINPUT2="1"		# Mozilla smooth scrolling/touchpads.
+export QT_QPA_PLATFORMTHEME="gtk2"		# Have QT use gtk2 theme.
+export MOZ_USE_XINPUT2="1"			# Mozilla smooth scrolling/touchpads.
 export AWT_TOOLKIT="MToolkit wmname LG3D"	#May have to install wmname
-export _JAVA_AWT_WM_NONREPARENTING=1	# Fix for Java applications in dwm
+export _JAVA_AWT_WM_NONREPARENTING=1		# Fix for Java applications in dwm
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
 export LESS_TERMCAP_me=$'\e[0m'

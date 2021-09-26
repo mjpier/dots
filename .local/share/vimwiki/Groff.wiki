@@ -1,0 +1,13 @@
+==These are great resources to learn Groff/Troff, provided by Gavin Freeborn==
+
+[[http://floppsie.comp.glam.ac.uk/Glamorgan/gaius/web/pic.html|GNU Pic only but still a good resource since most of the gnu extensions are pointed out]]
+[[http://doc.cat-v.org/unix/v8/picmemo.pdf|Pic A Graphics Language for Typesetting Revised User Manual - Most compatible documentation on PIC]]
+[[http://doc.cat-v.org/unix/v10/10thEdMan/tbl.pdf|Tbl, A Program to Format Tables - General intro to TBL]]
+[[http://www.kohala.com/start/troff/v7man/eqn/eqn2e.ps|EQN - Typesetting Mathematics — User’s Guide (Second Edition)- General intro to EQN]]
+[[http://www.kohala.com/start/troff/v7man/refer/refer.ps|Refer Docs for classic refer]]
+[[http://doc.cat-v.org/unix/v8/grap.pdf|GRAP, A Language for Typesetting Graphs Tutorial and User Manual]]
+[[https://github.com/larrykollar/Unix-Text-Processing|Unix Text Processing (UTP)]]
+[[http://www.kohala.com/start/troff/v7man/trofftut/trofftut.ps|General Troff Tutorial]]
+[[http://doc.cat-v.org/plan_9/4th_edition/papers/troff.pdf|Troff User Manual]]
+[[http://www.schaffter.ca/mom/pdf/mom-pdf.pdf|Producing PDFs with Groff and MOM]]
+[[http://www.kohala.com/start/troff/v7man/msmacros/msmacros.ps|Typing Documents on the UNIX System: Using the −ms Macros with Troff and Nroff]]
