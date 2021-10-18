@@ -1,0 +1,9 @@
+devour
+glxinfo
+lowdown
+nerd-fonts-cascadia-code
+nerd-fonts-hack
+pfetch
+picom-jonaburg-git
+spaceship-prompt-git
+totp-cli

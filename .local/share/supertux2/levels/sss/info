@@ -1,6 +1,0 @@
-(supertux-level-subset
-  (title (_ "sss"))
-  (description (_ "sss"))
-  (levelset #t)
-  (hide-from-contribs #f)
-)

@@ -1,5 +1,0 @@
-=Welcome to VimWiki=
-
-=Knowledge Base=
-* [[Groff]] -- Great resources to learn groff/troff.
-* [[Discord RPC]] -- List of Discord RPC for various programs.
