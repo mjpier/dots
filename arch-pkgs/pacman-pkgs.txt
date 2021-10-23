@@ -14,6 +14,7 @@ bluez-utils
 bravebin
 brightnessctl
 curl
+dash
 dialog
 discord
 dosfstools

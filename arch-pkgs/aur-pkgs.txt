@@ -6,4 +6,3 @@ nerd-fonts-hack
 pfetch
 picom-jonaburg-git
 spaceship-prompt-git
-totp-cli

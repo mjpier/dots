@@ -8,6 +8,7 @@ install-chaotic:
 	sudo pacman-key --lsign-key 3056513887B78AEB
 	sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 	sudo cp arch-pkgs/pacman.conf /etc/pacman.conf
+	sudo cp arch-pkgs/dashbinsh.hook /etc/pacman.d/hooks/dashbinsh.hook
 
 install-pacman:
 	sudo pacman -S --needed - < arch-pkgs/pacman-pkgs.txt
@@ -66,12 +67,12 @@ install-wallpaper:
 
 install-suckless:
 	git clone https://github.com/WitherCubes/dmenu.git ${HOME}/.local/src/dmenu
-	cd ${HOME}/.local/src/dmenu && sudo make clean install
 	git clone https://github.com/WitherCubes/dwm.git ${HOME}/.local/src/dwm
-	cd ${HOME}/.local/src/dwm && sudo make clean install
 	git clone https://github.com/WitherCubes/slock.git ${HOME}/.local/src/slock
-	cd ${HOME}/.local/src/slock && sudo make clean install
 	git clone https://github.com/WitherCubes/dwmblocks.git ${HOME}/.local/src/dwmblocks
-	cd ${HOME}/.local/src/dwmblocks && sudo make clean install
 	git clone https://github.com/WitherCubes/st.git ${HOME}/.local/src/st
-	cd ${HOME}/.local/src/st && sudo make clean install
+	sudo make -C ${HOME}/.local/src/dmenu clean install
+	sudo make -C ${HOME}/.local/src/dwm clean install
+	sudo make -C ${HOME}/.local/src/slock clean install
+	sudo make -C ${HOME}/.local/src/dwmblocks clean install
+	sudo make -C ${HOME}/.local/src/st clean install

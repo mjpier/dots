@@ -5,7 +5,7 @@ menu(){
     printf "2. dmkaomoji: List of kaomoji to copy paste\n"
     printf "3. dmlogout: Do all the nasty stuff\n"
     printf "4. dmwall: Download wallpapers from wallhaven\n"
-    printf "5. setb: SetBG\n"
+    printf "5. setbg: SetBG\n"
 }
 
 choice=$(menu | dmenu -p "Run:" -i -l 20 | cut -d. -f1)
@@ -15,7 +15,7 @@ case $choice in
     ~/.local/bin/dmemoji
     break
     2)
-    ~/.local/bin/setbg
+    ~/.local/bin/dmkaomoji
     break
     ;;
     3)

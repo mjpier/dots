@@ -25,6 +25,7 @@
             },
             "url": [
                 "archlinux.org"
+                "suckless.org"
             ]
         }
     ],
@@ -42,7 +43,8 @@
         "noxz.tech",
         "archlinux.org",
         "librespeed.org",
-        "odysee.com"
+        "odysee.com",
+        "suckless.org"
     ],
     "siteListEnabled": [],
     "syncSettings": true,
