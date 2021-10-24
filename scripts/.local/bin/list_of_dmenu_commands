@@ -6,9 +6,10 @@ menu(){
     printf "3. dmlogout: Do all the nasty stuff\n"
     printf "4. dmwall: Download wallpapers from wallhaven\n"
     printf "5. setbg: SetBG\n"
+    printf "6. sxbm_dmenu: Simple X Bookmark Manager\n"
 }
 
-choice=$(menu | dmenu -p "Run:" -i -l 20 | cut -d. -f1)
+choice=$(menu | dmenu -p "Run:" -l 20 | cut -d. -f1)
 
 case $choice in
     1)
@@ -28,6 +29,10 @@ case $choice in
     ;;
     5)
     ~/.local/bin/setbg
+    break
+    ;;
+    6)
+    sxbm_dmenu
     break
     ;;
     *)

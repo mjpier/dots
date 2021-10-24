@@ -68,6 +68,7 @@ newsboat
 nm-connection-editor
 nodejs
 noto-fonts
+opendoas
 os-prober
 p7zip
 pacman-contrib

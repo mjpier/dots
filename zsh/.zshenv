@@ -7,7 +7,7 @@ export VISUAL="nvim"
 export TERMINAL="alacritty"
 export BROWSER="brave"
 export VIDEO="mpv"
-export IMAGE="sxiv"
+export IMAGE="nsxiv"
 export PATH=$HOME/.local/bin:$PATH
 
 # ~/ Clean-up:

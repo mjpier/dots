@@ -3,6 +3,6 @@ glxinfo
 lowdown
 nerd-fonts-cascadia-code
 nerd-fonts-hack
-pfetch
+nsxiv
 picom-jonaburg-git
 spaceship-prompt-git
