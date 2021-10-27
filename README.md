@@ -5,6 +5,7 @@
 2. [Gallery](#gallery)
 3. [How to set up](#setup)
 4. [Other than dotfiles](#misc)
+5. [License](#license)
 
 <a name="software"/>
 
@@ -53,3 +54,8 @@ cd $HOME/dots && make uninstall-dotfiles
 ## Other than dotfiles
 - Run ```make help``` or ```make``` to get the list of the things that can be done using the Makefile.
 - I use the Makefile to install Arch Linux packages and setup dwm, I got inspired from [this](https://github.com/masasam/dotfiles) repo.
+
+<a name="#license"/>
+
+## License
+Released under the [MIT License](https://github.com/WitherCubes/dots/blob/master/LICENSE).
