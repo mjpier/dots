@@ -65,7 +65,7 @@ uninstall-dots:
 	stow -D zsh
 
 install-wallpaper:
-	git clone --depth=1 https://github.com/WitherCubes/wall.git ${HOME}/pix/wall
+	git clone --depth=1 https://github.com/WitherCubes/wall.git ${HOME}/.local/share/wall
 
 install-source:
 	git clone https://github.com/WitherCubes/dmenu.git ${HOME}/.local/src/dmenu

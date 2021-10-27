@@ -5,7 +5,7 @@ do
   fullpath="$(pwd)/$file"
   case "$1" in
     "w")  
-      $HOME/.local/bin/setbg $fullpath ;;
+      setbg $file ;;
     "d")  
       [ "$(printf 'No\nYes' | dmenu -p 'Delete all of the selected image(s)?')" = "Yes" ] && rm "$file" && notify-send "$file deleted" ;;
     "y")
