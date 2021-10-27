@@ -4,6 +4,7 @@ alacritty
 alsa-plugins
 alsa-tools
 alsa-utils
+aria2
 arc-gtk-theme
 arc-icon-theme
 base

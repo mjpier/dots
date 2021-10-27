@@ -29,6 +29,7 @@ install-dots:
 	stow newsboat
 	stow nsxiv
 	stow nvim
+	stow paru
 	stow picom
 	stow screenkey
 	stow scripts
@@ -53,6 +54,7 @@ uninstall-dots:
 	stow -D newsboat
 	stow -D nsxiv
 	stow -D nvim
+	stow -D paru
 	stow -D picom
 	stow -D screenkey
 	stow -D scripts

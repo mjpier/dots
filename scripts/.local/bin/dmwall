@@ -25,5 +25,4 @@ do
 done
 rm tmp.txt
 notify-send "😊 Download finish ✅"
-sxiv -t $walldir/*
-mv $walldir/* ~/pix/wall/
+nsxiv -t $walldir/*
