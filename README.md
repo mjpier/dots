@@ -13,7 +13,7 @@
 | Software             | Name                                                                                     |
 |----------------------|------------------------------------------------------------------------------------------|
 | Linux Distribution   | [Arch](https://archlinux.org)                                                            |
-| Window manager       | [dwm](https://github.com/WitherCubes/dwm)                                                |
+| Window manager       | [dwm](https://github.com/WitherCubes/dwm), [Qtile](http://www.qtile.org)                 |
 | Terminal emulator    | [Alacritty](https://github.com/alacritty/alacritty)                                      |
 | Terminal font        | [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) |
 | Shell                | zsh                                                                                      |

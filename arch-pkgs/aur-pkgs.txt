@@ -1,6 +1,7 @@
 devour
 glxinfo
 lowdown
+multicolor-sddm-theme
 nerd-fonts-cascadia-code
 nerd-fonts-hack
 nsxiv

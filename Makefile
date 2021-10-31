@@ -31,6 +31,7 @@ install-dots:
 	stow nvim
 	stow paru
 	stow picom
+	stow qtile
 	stow screenkey
 	stow scripts
 	stow sxbm
@@ -56,6 +57,7 @@ uninstall-dots:
 	stow -D nvim
 	stow -D paru
 	stow -D picom
+	stow -D qtile
 	stow -D screenkey
 	stow -D scripts
 	stow -D sxbm
@@ -70,6 +72,7 @@ install-wallpaper:
 	git clone --depth=1 https://github.com/WitherCubes/wall.git ${HOME}/.local/share/wall
 
 install-source:
+	mkdir -p ~/.local/src
 	git clone https://github.com/WitherCubes/dmenu.git ${HOME}/.local/src/dmenu
 	git clone https://github.com/WitherCubes/dwm.git ${HOME}/.local/src/dwm
 	git clone https://github.com/WitherCubes/slock.git ${HOME}/.local/src/slock

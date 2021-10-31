@@ -86,12 +86,14 @@ python3
 python-pip
 python-pynvim
 qt5ct
+qtile
 reflector
 ripgrep
 rofi
 rsync
 screenkey
 scrot
+sddm
 stow
 supertux
 supertuxkart
