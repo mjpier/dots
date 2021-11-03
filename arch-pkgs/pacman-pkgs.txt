@@ -12,7 +12,7 @@ base-devel
 bat
 bluez
 bluez-utils
-bravebin
+brave-bin
 brightnessctl
 curl
 dash
@@ -25,7 +25,6 @@ exa
 fd
 ferdi
 ffmpeg
-ffmpegthumbnailer
 figlet
 firefox
 flameshot
@@ -49,7 +48,6 @@ gvfs-smb
 imagemagick
 jq
 libnotify
-libreddit-git
 libxft-bgra
 linux-headers
 lolcat
@@ -100,7 +98,6 @@ supertuxkart
 sxhkd
 sxiv
 terminus-font
-the_silver_searcher
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -112,7 +109,6 @@ ttf-indic-otf
 ttf-joypixels
 ttf-ms-fonts
 ttf-roboto
-ueberzug
 ufw
 ungoogled-chromium
 unrar
@@ -121,8 +117,6 @@ vim
 vscodium
 webkit2gtk
 wget
-whoogle
-wmctrl
 wpa_supplicant
 xclip
 xdg-utils
@@ -130,7 +124,6 @@ xdotool
 xf86-input-libinput
 xf86-video-intel
 xfce4-power-manager
-xonotic
 xorg
 xorg-xinit
 xorg-xinput

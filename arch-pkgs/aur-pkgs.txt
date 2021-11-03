@@ -4,6 +4,6 @@ lowdown
 multicolor-sddm-theme
 nerd-fonts-cascadia-code
 nerd-fonts-hack
-nsxiv
+nsxiv-git
 picom-jonaburg-git
 spaceship-prompt-git
