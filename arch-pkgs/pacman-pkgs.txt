@@ -123,7 +123,6 @@ xdg-utils
 xdotool
 xf86-input-libinput
 xf86-video-intel
-xfce4-power-manager
 xorg
 xorg-xinit
 xorg-xinput

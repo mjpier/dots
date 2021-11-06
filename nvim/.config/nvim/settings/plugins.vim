@@ -11,4 +11,5 @@ Plug 'vimwiki/vimwiki'				" VimWiki
 Plug 'preservim/nerdtree'			" NERDtree
 Plug 'mhinz/vim-startify'			" Start screen
 Plug 'romgrk/doom-one.vim'			" Doom One ColorScheme
+Plug 'arcticicestudio/nord-vim'			" Nord Colorscheme
 call plug#end()

@@ -29,7 +29,12 @@
 <a name="gallery"/>
 
 ## Gallery
-![linux_rice](https://github.com/WitherCubes/dots/blob/master/linux_rice.png)
+
+### DWM
+![dwm_rice](https://github.com/WitherCubes/dots/blob/master/dwm_rice.png)
+
+### Qtile
+![qtile_rice](https://github.com/WitherCubes/dots/blob/master/qtile_rice.png)
 
 <a name="setup"/>
 

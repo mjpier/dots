@@ -26,6 +26,7 @@ source ~/.config/nvim/settings/remaps.vim
 source ~/.config/nvim/plugconfig/airline.vim
 source ~/.config/nvim/plugconfig/coc.vim
 source ~/.config/nvim/plugconfig/doom-one.vim
+" source ~/.config/nvim/plugconfig/nord.vim
 source ~/.config/nvim/plugconfig/nerdtree.vim
 source ~/.config/nvim/plugconfig/npresence.vim
 source ~/.config/nvim/plugconfig/startify.vim

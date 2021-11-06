@@ -117,8 +117,8 @@ for i in groups:
 #################
 layout_theme = {"border_width": 2,
                 "margin": 8,
-                "border_focus": "e1acff",
-                "border_normal": "1D2330"
+                "border_focus": "e5e9f0",
+                "border_normal": "3b4252"
                 }
 
 layouts = [
@@ -130,14 +130,23 @@ layouts = [
 #################
 #### Colors #####
 #################
-colors = [["#282c34", "#282c34"], # panel background
-          ["#3d3f4b", "#434758"], # background for current screen tab
-          ["#ffffff", "#ffffff"], # font color for group names
-          ["#ff5555", "#ff5555"], # border line color for current tab
-          ["#74438f", "#74438f"], # border line color for 'other tabs' and color for 'odd widgets'
-          ["#4f76c7", "#4f76c7"], # color for the 'even widgets'
-          ["#e1acff", "#e1acff"], # window name
-          ["#ecbbfb", "#ecbbfb"]] # backbround for inactive screens
+colors = [
+	["#2e3440", "#2e3440"],  # 0 background
+	["#3b4252", "#3b4252"],  # 1 background lighter
+	["#81a1c1", "#81a1c1"],  # 2 foreground
+	["#bf616a", "#bf616a"],  # 3 red
+	["#a3be8c", "#a3be8c"],  # 4 green
+	["#ebcb8b", "#ebcb8b"],  # 5 yellow
+	["#81a1c1", "#81a1c1"],  # 6 blue
+	["#e5e9f0", "#e5e9f0"],  # 7 white
+	["#88c0d0", "#88c0d0"],  # 8 cyan
+	["#b48ead", "#b48ead"],  # 9 magenta
+	["#4c566a", "#4c566a"],  # 10 grey
+	["#d08770", "#d08770"],  # 11 orange
+	["#8fbcbb", "#8fbcbb"],  # 12 super cyan
+	["#5e81ac", "#5e81ac"],  # 13 super blue
+	["#242831", "#242831"],  # 14 super dark background
+]
 
 #################
 #### Widgets ####
@@ -201,7 +210,7 @@ def init_widgets_list():
                        padding = 0
                        ),
               widget.Systray(
-                       background = colors[0],
+                       background = colors[14],
                        icon_size = 20,
                        padding = 0
                        ),
@@ -215,7 +224,7 @@ def init_widgets_list():
                        font = "Hack Nerd Font",
                        fontsize = 15,
                        foreground = colors[2],
-                       background = colors[4],
+                       background = colors[14],
                        battery = 0,
                        format = '{char} {percent:2.0%}',
                        notify_below = 30,
@@ -223,7 +232,7 @@ def init_widgets_list():
                        ),
               widget.Clock(
                        foreground = colors[2],
-                       background = colors[5],
+                       background = colors[14],
                        format = "%k:%M:%S %p"
                        ),
               ]
@@ -284,27 +293,14 @@ reconfigure_screens = True
 
 # If things like steam games want to auto-minimize themselves when losing
 # focus, should we respect this or not?
-auto_minimize = True
+# auto_minimize = True
 
 ##############################
 ### Autostart Applications ###
 ##############################
 @hook.subscribe.startup_once
-def autostart():
-    processes = [
-        ['picom'],
-        ['dunst'],
-        ['lxsession'],
-        ['/home/wc/.local/bin/setbg'],
-        ['sxhkd'],
-        ['xfce4-power-manager'],
-        ['/usr/bin/xrdb', '-load', '/home/wc/.config/x11/xresources'],
-        ['nm-applet'],
-        ['blueman-applet'],
-        ['pasystray'],
-        ['flameshot'],
-        ['brightnessctl', 's', '5']
-    ]
+def start_once():
+    home = os.path.expanduser('~')
+    subprocess.call([home + '/.config/qtile/autostart.sh'])
 
-    for p in processes:
-        subprocess.Popen(p)
+wmname = "LG3D"
