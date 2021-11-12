@@ -9,6 +9,7 @@ install-chaotic:
 	doas pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 	doas cp arch-pkgs/pacman.conf /etc/pacman.conf
 	doas cp arch-pkgs/dashbinsh.hook /etc/pacman.d/hooks/dashbinsh.hook
+	doas cp arch-pkgs/mirrorupgrade.hook /etc/pacman.d/hooks/mirrorupgrade.hook
 
 install-pacman:
 	doas pacman -S --needed - < arch-pkgs/pacman-pkgs.txt
