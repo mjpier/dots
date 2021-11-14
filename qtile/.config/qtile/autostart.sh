@@ -4,7 +4,7 @@ picom &
 dunst &
 nm-applet &
 blueman-applet &
-pasystray &
+volumeicon &
 sxhkd &
 flameshot &
 xwallpaper --zoom $HOME/.config/qtile/nord.png &

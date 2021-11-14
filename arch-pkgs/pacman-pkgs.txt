@@ -74,7 +74,6 @@ pacman-contrib
 pamixer
 papirus-icon-theme
 paru
-pasystray
 pavucontrol
 pcmanfm
 pulseaudio
@@ -106,6 +105,7 @@ tlp
 transmission-gtk
 ttf-font-awesome
 ttf-indic-otf
+ttf-jetbrains-mono
 ttf-joypixels
 ttf-ms-fonts
 ttf-roboto
@@ -114,6 +114,7 @@ ungoogled-chromium
 unrar
 vi
 vim
+volumeicon
 vscodium
 webkit2gtk
 wget

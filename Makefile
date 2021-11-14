@@ -38,6 +38,7 @@ install-dots:
 	stow sxbm
 	stow sxhkd
 	stow sxiv
+	stow volumeicon
 	stow wget
 	stow x11
 	stow zathura
@@ -64,6 +65,7 @@ uninstall-dots:
 	stow -D sxbm
 	stow -D sxhkd
 	stow -D sxiv
+	stow -D volumeicon
 	stow -D wget
 	stow -D x11
 	stow -D zathura

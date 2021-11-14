@@ -9,6 +9,6 @@ sxhkd &
 xrdb -load ~/.config/x11/xresources &
 nm-applet &
 blueman-applet &
-pasystray &
+volumeicon &
 flameshot &
 brightnessctl s 5 &
