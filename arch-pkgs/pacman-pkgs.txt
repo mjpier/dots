@@ -23,10 +23,8 @@ dunst
 engrampa
 exa
 fd
-ferdi
 ffmpeg
 figlet
-firefox
 flameshot
 fzf
 git
@@ -86,11 +84,8 @@ qt5ct
 qtile
 reflector
 ripgrep
-rofi
 rsync
 screenkey
-scrot
-sddm
 stow
 supertux
 supertuxkart

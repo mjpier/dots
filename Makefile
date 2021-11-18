@@ -80,6 +80,7 @@ install-source:
 	git clone https://github.com/WitherCubes/dwm.git ${HOME}/.local/src/dwm
 	git clone https://github.com/WitherCubes/slock.git ${HOME}/.local/src/slock
 	git clone https://github.com/WitherCubes/dwmblocks.git ${HOME}/.local/src/dwmblocks
+	git clone https://github.com/WitherCubes/sldm.git ${HOME}/.local/src/sldm
 	git clone https://github.com/WitherCubes/st.git ${HOME}/.local/src/st
 	git clone https://github.com/WitherCubes/sxbm.git ${HOME}/.local/src/sxbm
 	git clone https://github.com/WitherCubes/zfetch.git ${HOME}/.local/src/zfetch
@@ -87,6 +88,7 @@ install-source:
 	doas make -C ${HOME}/.local/src/dwm clean install
 	doas make -C ${HOME}/.local/src/slock clean install
 	doas make -C ${HOME}/.local/src/dwmblocks clean install
+	doas make -C ${HOME}/.local/src/sldm clean install
 	doas make -C ${HOME}/.local/src/st clean install
 	doas make -C ${HOME}/.local/src/sxbm install
 	doas make -C ${HOME}/.local/src/zfetch install
