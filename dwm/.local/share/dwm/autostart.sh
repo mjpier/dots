@@ -1,6 +1,7 @@
 #!/bin/sh
 
 picom &
+xrandr --dpi 96 &
 dunst &
 lxsession &
 $HOME/.local/bin/setbg &

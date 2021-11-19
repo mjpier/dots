@@ -87,8 +87,6 @@ ripgrep
 rsync
 screenkey
 stow
-supertux
-supertuxkart
 sxhkd
 sxiv
 terminus-font

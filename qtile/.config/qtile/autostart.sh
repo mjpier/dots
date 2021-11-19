@@ -1,6 +1,7 @@
 #!/bin/sh
 
 picom &
+xrandr --dpi 96 &
 dunst &
 nm-applet &
 blueman-applet &
