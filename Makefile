@@ -10,6 +10,7 @@ install-dots:
 	stow -t ~ dunst
 	stow -t ~ dwm
 	stow -t ~ flameshot
+	stow -t ~ git
 	stow -t ~ htop
 	stow -t ~ melonDS
 	stow -t ~ mpv
@@ -37,6 +38,7 @@ uninstall-dots:
 	stow -t ~ -D dunst
 	stow -t ~ -D dwm
 	stow -t ~ -D flameshot
+	stow -t ~ -D git
 	stow -t ~ -D htop
 	stow -t ~ -D melonDS
 	stow -t ~ -D mpv
