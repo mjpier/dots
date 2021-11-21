@@ -4,55 +4,55 @@ help:
 	@printf "Usage:\n\tmake install-dots\t\tInstalls dotfiles using GNU Stow\n\tmake uninstall-dots\t\tUninstalls dotfiles\n"
 
 install-dots:
-	stow alacritty
-	stow chromium
-	stow dark-reader
-	stow dunst
-	stow dwm
-	stow flameshot
-	stow htop
-	stow melonDS
-	stow mpv
-	stow newsboat
-	stow nsxiv
-	stow nvim
-	stow paru
-	stow picom
-	stow qtile
-	stow screenkey
-	stow scripts
-	stow sxbm
-	stow sxhkd
-	stow sxiv
-	stow volumeicon
-	stow wget
-	stow x11
-	stow zathura
-	stow zsh
+	stow -t ~ alacritty
+	stow -t ~ chromium
+	stow -t ~ dark-reader
+	stow -t ~ dunst
+	stow -t ~ dwm
+	stow -t ~ flameshot
+	stow -t ~ htop
+	stow -t ~ melonDS
+	stow -t ~ mpv
+	stow -t ~ newsboat
+	stow -t ~ nsxiv
+	stow -t ~ nvim
+	stow -t ~ paru
+	stow -t ~ picom
+	stow -t ~ qtile
+	stow -t ~ screenkey
+	stow -t ~ scripts
+	stow -t ~ sxbm
+	stow -t ~ sxhkd
+	stow -t ~ sxiv
+	stow -t ~ volumeicon
+	stow -t ~ wget
+	stow -t ~ x11
+	stow -t ~ zathura
+	stow -t ~ zsh
 
 uninstall-dots:
-	stow -D alacritty
-	stow -D chromium
-	stow -D dark-reader
-	stow -D dunst
-	stow -D dwm
-	stow -D flameshot
-	stow -D htop
-	stow -D melonDS
-	stow -D mpv
-	stow -D newsboat
-	stow -D nsxiv
-	stow -D nvim
-	stow -D paru
-	stow -D picom
-	stow -D qtile
-	stow -D screenkey
-	stow -D scripts
-	stow -D sxbm
-	stow -D sxhkd
-	stow -D sxiv
-	stow -D volumeicon
-	stow -D wget
-	stow -D x11
-	stow -D zathura
-	stow -D zsh
+	stow -t ~ -D alacritty
+	stow -t ~ -D chromium
+	stow -t ~ -D dark-reader
+	stow -t ~ -D dunst
+	stow -t ~ -D dwm
+	stow -t ~ -D flameshot
+	stow -t ~ -D htop
+	stow -t ~ -D melonDS
+	stow -t ~ -D mpv
+	stow -t ~ -D newsboat
+	stow -t ~ -D nsxiv
+	stow -t ~ -D nvim
+	stow -t ~ -D paru
+	stow -t ~ -D picom
+	stow -t ~ -D qtile
+	stow -t ~ -D screenkey
+	stow -t ~ -D scripts
+	stow -t ~ -D sxbm
+	stow -t ~ -D sxhkd
+	stow -t ~ -D sxiv
+	stow -t ~ -D volumeicon
+	stow -t ~ -D wget
+	stow -t ~ -D x11
+	stow -t ~ -D zathura
+	stow -t ~ -D zsh

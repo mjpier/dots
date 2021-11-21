@@ -24,7 +24,6 @@ source ~/.config/nvim/settings/abbrevations.vim
 source ~/.config/nvim/settings/plugins.vim
 source ~/.config/nvim/settings/remaps.vim
 source ~/.config/nvim/plugconfig/airline.vim
-source ~/.config/nvim/plugconfig/coc.vim
 source ~/.config/nvim/plugconfig/doom-one.vim
 " source ~/.config/nvim/plugconfig/nord.vim
 source ~/.config/nvim/plugconfig/nerdtree.vim

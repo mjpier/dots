@@ -1,0 +1,19 @@
+# MelonDS
+melonDS/.config/melonDS/biosdsi7.bin
+melonDS/.config/melonDS/biosdsi9.bin
+melonDS/.config/melonDS/biosnds7.bin
+melonDS/.config/melonDS/biosnds9.bin
+melonDS/.config/melonDS/dsfirmware.bin
+melonDS/.config/melonDS/dsfirmware.bin.bak
+melonDS/.config/melonDS/ds-firmware_dsi-nand-and-firmware.zip
+melonDS/.config/melonDS/dsifirmware.bin
+melonDS/.config/melonDS/dsinand.bin
+
+# Newsboat
+newsboat/.config/newsboat/cache.db
+
+# Nvim
+nvim/.config/nvim/plugins
+
+# Qtile
+qtile/.config/qtile/__pycache__
