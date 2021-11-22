@@ -35,6 +35,11 @@ export WEECHAT_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/weechat"
 export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/mbsync/config"
 export ELECTRUMDIR="${XDG_DATA_HOME:-$HOME/.local/share}/electrum"
 
+# Pfetch Config:
+export PF_INFO="ascii title os kernel pkgs shell wm"
+export PF_ALIGN="10"
+export PF_COLOR=1
+
 # Other program settings:
 export LC_CTYPE="en_US.utf8"
 export DICS="/usr/share/stardict/dic/"

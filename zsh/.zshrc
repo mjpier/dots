@@ -47,6 +47,6 @@ source "$HOME/.config/zsh/aliasrc"
 source "$HOME/.config/zsh/functionsrc"
 
 ### Startup
-zfetch
+pfetch
 autoload -U promptinit; promptinit
 prompt spaceship

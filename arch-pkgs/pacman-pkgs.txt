@@ -74,6 +74,7 @@ papirus-icon-theme
 paru
 pavucontrol
 pcmanfm
+pfetch-git
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
