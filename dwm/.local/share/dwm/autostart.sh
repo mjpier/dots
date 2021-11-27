@@ -1,5 +1,7 @@
 #!/bin/sh
 
+killall -9 picom dunst sxhkd nm-applet blueman-applet volumeicon flameshot
+
 picom &
 xrandr --dpi 96 &
 dunst &
@@ -13,3 +15,4 @@ blueman-applet &
 volumeicon &
 flameshot &
 brightnessctl s 5 &
+thunar --daemon &
