@@ -1,12 +1,16 @@
 [user]
 	name = Sanjay Pavan
 	email = tsppavan7@gmail.com
+	signingkey = 4F4161E20E15A496
 
 [alias]
-    hist = log --pretty=format:'%h %ad [%an] %s%d ' --graph --date=short
+	hist = log --pretty=format:'%h %ad [%an] %s%d ' --graph --date=short
 
 [core]
 	editor = nvim
 
 [init]
-    defaultBranch = master
+	defaultBranch = master
+
+[commit]
+	gpgsign = true
