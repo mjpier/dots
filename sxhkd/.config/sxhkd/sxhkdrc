@@ -2,13 +2,13 @@ XF86MonBrightness{Up,Down}
 	brightnessctl s 10{+,-}
 
 XF86AudioRaiseVolume
-	pamixer -i 10 --allow-boost && notify-send "Increased Volume"
+	pamixer -i 10 --allow-boost
 
 XF86AudioLowerVolume
-	pamixer -d 10 --allow-boost && notify-send "Decreased Volume"
+	pamixer -d 10 --allow-boost
 
 XF86AudioMute
-	pamixer --toggle-mute && notify-send "Muted/Unmuted Audio"
+	pamixer --toggle-mute
 
 XF86AudioPlay
 	playerctl play-pause
