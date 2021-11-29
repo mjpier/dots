@@ -75,6 +75,7 @@ paru
 pavucontrol
 pcmanfm
 pfetch-git
+picom
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth

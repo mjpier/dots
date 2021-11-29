@@ -1,9 +1,7 @@
 devour
-glxinfo
 lowdown
 nerd-fonts-cascadia-code
 nerd-fonts-hack
 nsxiv-git
-picom-jonaburg-git
 rdo
 spaceship-prompt-git
