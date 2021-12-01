@@ -14,26 +14,21 @@ choice=$(menu | dmenu -p "Run:" -l 20 | cut -d. -f1)
 case $choice in
     1)
     ~/.local/bin/dmemoji
-    break
+    ;;
     2)
     ~/.local/bin/dmkaomoji
-    break
     ;;
     3)
     ~/.local/bin/dmlogout
-    break
     ;;
     4)
     ~/.local/bin/dmwall
-    break
     ;;
     5)
     ~/.local/bin/setbg
-    break
     ;;
     6)
     sxbm_dmenu
-    break
     ;;
     *)
     ;;

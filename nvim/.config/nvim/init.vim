@@ -11,6 +11,7 @@ set nobackup
 set noswapfile
 set incsearch
 set clipboard+=unnamedplus
+set expandtab ts=4 sw=4 ai
 set scrolloff=8
 set mouse=a
 set wildmode=longest,list,full

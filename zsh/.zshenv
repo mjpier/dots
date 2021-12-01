@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# profile file. Runs on login. Environmental variables are set here.
+# Profile file. Runs on login. Environmental variables are set here.
 
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -23,6 +23,7 @@ export INPUTRC="${XDG_CONFIG_HOME:-$HOME/.config}/shell/inputrc"
 export WINEPREFIX="${XDG_DATA_HOME:-$HOME/.local/share}/wineprefixes/default"
 export KODI_DATA="${XDG_DATA_HOME:-$HOME/.local/share}/kodi"
 export GNUPGHOME=$HOME/.local/share/gnupg
+export GPG_TTY=$(tty)
 export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
 export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 export ANDROID_SDK_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/android"
