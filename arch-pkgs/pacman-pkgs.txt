@@ -49,7 +49,7 @@ libnotify
 libxft-bgra
 linux-headers
 lolcat
-lxappearance
+lxappearance-gtk3
 lxsession
 melonds-git
 mousepad
