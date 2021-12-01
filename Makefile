@@ -20,6 +20,7 @@ install-dots:
 	stow -t ~ nvim
 	stow -t ~ paru
 	stow -t ~ picom
+	stow -t ~ qt
 	stow -t ~ qtile
 	stow -t ~ screenkey
 	stow -t ~ scripts
@@ -49,6 +50,7 @@ uninstall-dots:
 	stow -t ~ -D nvim
 	stow -t ~ -D paru
 	stow -t ~ -D picom
+	stow -t ~ -D qt
 	stow -t ~ -D qtile
 	stow -t ~ -D screenkey
 	stow -t ~ -D scripts
