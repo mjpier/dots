@@ -15,5 +15,9 @@ newsboat/.config/newsboat/cache.db
 # Nvim
 nvim/.config/nvim/plugins
 
+# Qt5ct
+qt/.config/qt5ct/colors
+qt/.config/qt5ct/qss
+
 # Qtile
 qtile/.config/qtile/__pycache__
