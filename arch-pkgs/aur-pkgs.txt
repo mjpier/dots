@@ -1,3 +1,4 @@
+arc-kde
 devour
 lowdown
 nerd-fonts-cascadia-code

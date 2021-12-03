@@ -55,4 +55,4 @@ frame_color = "#30343B"
 
 [play_sound]
 summary = "*"
-script = "/home/wc/.local/bin/alert"
+script = "~/.local/bin/alert"

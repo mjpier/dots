@@ -6,7 +6,6 @@ alsa-tools
 alsa-utils
 aria2
 arc-gtk-theme
-arc-icon-theme
 base
 base-devel
 bat
@@ -46,6 +45,7 @@ gvfs-mtp
 gvfs-smb
 imagemagick
 jq
+kvantum-qt5
 libnotify
 libxft-bgra
 linux-headers

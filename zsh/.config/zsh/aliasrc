@@ -4,7 +4,6 @@ alias la='exa -lah --color=always --group-directories-first'
 alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias cls="clear && pfetch"
-alias dotfiles="/usr/bin/git --git-dir=$HOME/dots/ --work-tree=$HOME"
 alias rickroll="curl -s -L http://bit.ly/10hA8iC | bash"
 alias mirror="sudo reflector --sort rate -l 30 --verbose --save /etc/pacman.d/mirrorlist"
 alias mpv="devour mpv"
