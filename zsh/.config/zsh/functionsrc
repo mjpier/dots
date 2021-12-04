@@ -7,7 +7,7 @@ xdg-open "$(find -type f | fzf)"
 }
 
 fhistory() {
-history | cut -c 8- | sort | uniq | fzf | tr -d '\n' | xclip -selection c
+history 1 -1 | cut -c 8- | sort | uniq | fzf | tr -d '\n' | xclip -selection c
 }
 
 countdown() {

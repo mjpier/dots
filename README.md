@@ -48,6 +48,7 @@ Install the dotfiles (You need GNU Stow installed):
 ```bash
 cd $HOME/dots && make install-dotfiles
 ```
+> Note that you need to change some things in flameshot and melonDS to your own user to fix some things.
 
 Uninstall the dotfiles (You need GNU Stow installed):
 ```bash
