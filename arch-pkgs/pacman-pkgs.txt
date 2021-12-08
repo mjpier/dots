@@ -1,9 +1,6 @@
 acpi
 acpi_call
 alacritty
-alsa-plugins
-alsa-tools
-alsa-utils
 aria2
 arc-gtk-theme
 base
@@ -77,9 +74,9 @@ pavucontrol
 pcmanfm
 pfetch-git
 picom
-pulseaudio
-pulseaudio-alsa
-pulseaudio-bluetooth
+pipewire
+pipewire-alsa
+pipewire-pulse
 python3
 python-pip
 python-pynvim
@@ -115,6 +112,7 @@ volumeicon
 vscodium
 webkit2gtk
 wget
+wireplumber
 wpa_supplicant
 xclip
 xdg-utils
