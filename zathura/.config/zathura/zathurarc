@@ -14,43 +14,43 @@ map i recolor
 set window-title-basename "true"
 set selection-clipboard "clipboard"
 
-set notification-error-bg       "#ff6c6b" # Red
-set notification-error-fg       "#bbc2cf" # Foreground
-set notification-warning-bg     "#ECBE7B" # Orange
-set notification-warning-fg     "#1c1f24" # Selection
-set notification-bg             "#282c34" # Background
-set notification-fg             "#bbc2cf" # Foreground
+set notification-error-bg       "#cc241d" # Red
+set notification-error-fg       "#ebdbb2" # Foreground
+set notification-warning-bg     "#d79921" # Orange
+set notification-warning-fg     "#928374" # Selection
+set notification-bg             "#282828" # Background
+set notification-fg             "#ebdbb2" # Foreground
 
-set completion-bg               "#282c34" # Background
-set completion-fg               "#6272a4" # Comment
-set completion-group-bg         "#282c34" # Background
-set completion-group-fg         "#6272a4" # Comment
-set completion-highlight-bg     "#1c1f24" # Selection
-set completion-highlight-fg     "#bbc2cf" # Foreground
+set completion-bg               "#282828" # Background
+set completion-fg               "#689d6a" # Comment
+set completion-group-bg         "#282828" # Background
+set completion-group-fg         "#689d6a" # Comment
+set completion-highlight-bg     "#928374" # Selection
+set completion-highlight-fg     "#ebdbb2" # Foreground
 
-set index-bg                    "#282c34" # Background
-set index-fg                    "#bbc2cf" # Foreground
-set index-active-bg             "#1c1f24" # Current Line
-set index-active-fg             "#bbc2cf" # Foreground
+set index-bg                    "#282828" # Background
+set index-fg                    "#ebdbb2" # Foreground
+set index-active-bg             "#928374" # Current Line
+set index-active-fg             "#ebdbb2" # Foreground
 
-set inputbar-bg                 "#282c34" # Background
-set inputbar-fg                 "#bbc2cf" # Foreground
-set statusbar-bg                "#282c34" # Background
-set statusbar-fg                "#bbc2cf" # Foreground
+set inputbar-bg                 "#282828" # Background
+set inputbar-fg                 "#ebdbb2" # Foreground
+set statusbar-bg                "#282828" # Background
+set statusbar-fg                "#ebdbb2" # Foreground
 
-set highlight-color             "#ECBE7B" # Orange
-set highlight-active-color      "#c678dd" # Pink
+set highlight-color             "#d79921" # Orange
+set highlight-active-color      "#b16286" # Pink
 
-set default-bg                  "#282c34" # Background
-set default-fg                  "#bbc2cf" # Foreground
+set default-bg                  "#282828" # Background
+set default-fg                  "#ebdbb2" # Foreground
 
 set render-loading              true
-set render-loading-fg           "#282c34" # Background
-set render-loading-bg           "#bbc2cf" # Foreground
+set render-loading-fg           "#282828" # Background
+set render-loading-bg           "#ebdbb2" # Foreground
 
 ### Recolor mode settings ###
-set recolor-lightcolor          "#282c34" # Background
-set recolor-darkcolor           "#bbc2cf" # Foreground
+set recolor-lightcolor          "#282828" # Background
+set recolor-darkcolor           "#ebdbb2" # Foreground
 
 
 ### Startup options ###
