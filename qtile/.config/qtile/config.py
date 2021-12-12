@@ -131,21 +131,21 @@ layouts = [
 #### Colors #####
 #################
 colors = [
-	["#2e3440", "#2e3440"],  # 0 background
-	["#3b4252", "#3b4252"],  # 1 background lighter
-	["#81a1c1", "#81a1c1"],  # 2 foreground
-	["#bf616a", "#bf616a"],  # 3 red
-	["#a3be8c", "#a3be8c"],  # 4 green
-	["#ebcb8b", "#ebcb8b"],  # 5 yellow
-	["#81a1c1", "#81a1c1"],  # 6 blue
-	["#e5e9f0", "#e5e9f0"],  # 7 white
-	["#88c0d0", "#88c0d0"],  # 8 cyan
-	["#b48ead", "#b48ead"],  # 9 magenta
-	["#4c566a", "#4c566a"],  # 10 grey
-	["#d08770", "#d08770"],  # 11 orange
-	["#8fbcbb", "#8fbcbb"],  # 12 super cyan
-	["#5e81ac", "#5e81ac"],  # 13 super blue
-	["#242831", "#242831"],  # 14 super dark background
+	["#282828", "#282828"],  # 0 background
+	["#32302f", "#32302f"],  # 1 background lighter
+	["#98971a", "#98971a"],  # 2 foreground
+	["#cc241d", "#cc241d"],  # 3 red
+	["#98971a", "#98971a"],  # 4 green
+	["#d79921", "#d79921"],  # 5 yellow
+	["#458588", "#458588"],  # 6 blue
+	["#ebdbb2", "#ebdbb2"],  # 7 white
+	["#689d6a", "#689d6a"],  # 8 cyan
+	["#b16286", "#b16286"],  # 9 magenta
+	["#928374", "#928374"],  # 10 grey
+	["#fabd2f", "#fabd2f"],  # 11 orange
+	["#8ec07c", "#8ec07c"],  # 12 super cyan
+	["#83a598", "#83a598"],  # 13 super blue
+	["#1d2021", "#1d2021"],  # 14 super dark background
 ]
 
 #################
@@ -303,4 +303,4 @@ def start_once():
     home = os.path.expanduser('~')
     subprocess.call([home + '/.config/qtile/autostart.sh'])
 
-wmname = "LG3D"
+wmname = "Qtile"

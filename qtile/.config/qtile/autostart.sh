@@ -9,7 +9,7 @@ dunst &
 lxsession &
 xwallpaper --zoom $HOME/.config/qtile/nord.png &
 sxhkd &
-xrdb -load ~/.config/x11/xresources &
+setbg &
 nm-applet &
 blueman-applet &
 volumeicon &

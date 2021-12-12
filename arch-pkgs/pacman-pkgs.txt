@@ -27,6 +27,8 @@ fzf
 git
 gparted
 grub
+gruvbox-dark-icons-gtk
+gruvbox-dark-gtk
 gst-libav
 gst-plugins-bad
 gst-plugins-base
