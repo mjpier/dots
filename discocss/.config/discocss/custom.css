@@ -93,3 +93,26 @@ span[class*="mention"] {
 div[class^="scrollableContainer"] {
     background-color: var(--background-secondary);
 }
+
+/* Home Button Change */
+div[aria-label = "Home"] > div {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4)), url("https://cdn.discordapp.com/attachments/747817996424052767/900037591699685476/image0-1.gif");
+    background-blend-mode: darken;
+    background-size: contain;
+}
+
+div[aria-label = "Home"] > div:hover {
+    background-image: url("https://cdn.discordapp.com/attachments/747817996424052767/900037591699685476/image0-1.gif");
+    background-blend-mode: normal;
+}
+
+div[aria-label = "Home"] > div:hover > svg {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+}
+
+div[aria-label = "Home"] > div > svg {
+    color: white;
+    stroke: black;
+    stroke-width: 0.3px;
+}
