@@ -1,8 +1,8 @@
 acpi
 acpi_call
 alacritty
-aria2
 arc-gtk-theme
+aria2
 base
 base-devel
 bat
@@ -13,6 +13,7 @@ brightnessctl
 curl
 dash
 dialog
+discocss-git
 discord
 dosfstools
 dunst
@@ -27,8 +28,8 @@ fzf
 git
 gparted
 grub
-gruvbox-dark-icons-gtk
 gruvbox-dark-gtk
+gruvbox-dark-icons-gtk
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -44,7 +45,7 @@ gvfs-mtp
 gvfs-smb
 imagemagick
 jq
-kvantum-qt5
+kvantum
 libnotify
 libxft-bgra
 linux-headers
@@ -82,8 +83,8 @@ pipewire-pulse
 python3
 python-pip
 python-pynvim
-qt5-styleplugins
 qt5ct
+qt5-styleplugins
 qtile
 reflector
 ripgrep
