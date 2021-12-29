@@ -90,6 +90,7 @@ reflector
 ripgrep
 rsync
 screenkey
+spotify
 stow
 sxhkd
 sxiv
