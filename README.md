@@ -65,3 +65,6 @@ cd $HOME/dots && make uninstall-dotfiles
 
 ## License
 Licensed under the [MIT License](https://github.com/WitherCubes/dots/blob/master/LICENSE).
+
+## Contributors
+![contrib](https://contrib.rocks/image?repo=WitherCubes/dots)
