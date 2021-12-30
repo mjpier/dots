@@ -1,5 +1,6 @@
 # BetterDiscord
-discord/.config/BetterDiscord/data
+discord/.config/BetterDiscord/data/betterdiscord.asar
+discord/.config/BetterDiscord/data/emotes.asar
 discord/.config/BetterDiscord/plugins
 
 # MelonDS
