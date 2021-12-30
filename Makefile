@@ -7,7 +7,7 @@ install-dots:
 	stow -t ~ alacritty
 	stow -t ~ chromium
 	stow -t ~ dark-reader
-	stow -t ~ discocss
+	stow -t ~ discord
 	stow -t ~ dunst
 	stow -t ~ dwm
 	stow -t ~ flameshot
@@ -38,7 +38,7 @@ uninstall-dots:
 	stow -t ~ -D alacritty
 	stow -t ~ -D chromium
 	stow -t ~ -D dark-reader
-	stow -t ~ -D discocss
+	stow -t ~ -D discord
 	stow -t ~ -D dunst
 	stow -t ~ -D dwm
 	stow -t ~ -D flameshot

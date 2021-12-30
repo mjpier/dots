@@ -13,7 +13,6 @@ brightnessctl
 curl
 dash
 dialog
-discocss-git
 discord
 dosfstools
 dunst
@@ -66,6 +65,7 @@ newsboat
 nm-connection-editor
 nodejs
 noto-fonts
+npm
 opendoas
 os-prober
 p7zip

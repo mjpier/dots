@@ -1,4 +1,13 @@
-.theme-dark {
+/**
+ * @name Pa1
+ * @author Sanjay Pavan
+ * @version 0.0.1
+ * @description Sanjay Pavan's Discord Theme.
+ * @website https://withercubes.xyz
+ * @source https://withercubes.xyz
+*/
+
+:root {
     --background-primary: #1a1b26;
     --background-secondary: #1a1b26;
     --background-tertiary: #1a1b26;
