@@ -28,7 +28,7 @@
 
 <a name="gallery"/>
 
-## Gallery
+## Gallery (not relevant bcuz switched to gruvbox theme)
 
 ### DWM
 ![dwm_rice](https://github.com/WitherCubes/dots/blob/master/dwm_rice.png)
