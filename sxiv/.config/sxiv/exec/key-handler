@@ -3,9 +3,9 @@
 while read file
 do
   case "$1" in
-    "w")  
+    "w")
       setbg $file ;;
-    "d")  
+    "d")
       [ "$(printf 'No\nYes' | dmenu -p 'Delete all of the selected image(s)?')" = "Yes" ] && rm "$file" && notify-send "$file deleted" ;;
     "y")
       readlink --canonicalize "$file" | tr -d '\n' | xclip -selection clipboard && notify-send "Absolute path of '$file' copied to clipboard" ;;

@@ -5,6 +5,7 @@ help:
 
 install-dots:
 	stow -t ~ alacritty
+	stow -t ~ bspwm
 	stow -t ~ chromium
 	stow -t ~ dark-reader
 	stow -t ~ discord
@@ -21,6 +22,7 @@ install-dots:
 	stow -t ~ nvim
 	stow -t ~ paru
 	stow -t ~ picom
+	stow -t ~ polybar
 	stow -t ~ qt
 	stow -t ~ qtile
 	stow -t ~ screenkey
@@ -36,6 +38,7 @@ install-dots:
 
 uninstall-dots:
 	stow -t ~ -D alacritty
+	stow -t ~ -D bspwm
 	stow -t ~ -D chromium
 	stow -t ~ -D dark-reader
 	stow -t ~ -D discord
@@ -52,6 +55,7 @@ uninstall-dots:
 	stow -t ~ -D nvim
 	stow -t ~ -D paru
 	stow -t ~ -D picom
+	stow -t ~ -D polybar
 	stow -t ~ -D qt
 	stow -t ~ -D qtile
 	stow -t ~ -D screenkey

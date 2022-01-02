@@ -20,6 +20,9 @@ set expandtab ts=4 sw=4 ai
 " Auto Center
 autocmd InsertEnter * norm zz
 
+" Remove trailing whitespaces
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Sources
 source ~/.config/nvim/settings/abbrevations.vim
 source ~/.config/nvim/settings/plugins.vim

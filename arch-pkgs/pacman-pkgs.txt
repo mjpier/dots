@@ -10,6 +10,7 @@ bluez
 bluez-utils
 brave-bin
 brightnessctl
+bspwm
 curl
 dash
 dialog
@@ -80,6 +81,7 @@ picom
 pipewire
 pipewire-alsa
 pipewire-pulse
+polybar
 python3
 python-pip
 python-pynvim

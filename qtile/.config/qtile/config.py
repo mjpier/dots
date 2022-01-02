@@ -131,21 +131,21 @@ layouts = [
 #### Colors #####
 #################
 colors = [
-	["#282828", "#282828"],  # 0 background
-	["#32302f", "#32302f"],  # 1 background lighter
-	["#98971a", "#98971a"],  # 2 foreground
-	["#cc241d", "#cc241d"],  # 3 red
-	["#98971a", "#98971a"],  # 4 green
-	["#d79921", "#d79921"],  # 5 yellow
-	["#458588", "#458588"],  # 6 blue
-	["#ebdbb2", "#ebdbb2"],  # 7 white
-	["#689d6a", "#689d6a"],  # 8 cyan
-	["#b16286", "#b16286"],  # 9 magenta
-	["#928374", "#928374"],  # 10 grey
-	["#fabd2f", "#fabd2f"],  # 11 orange
-	["#8ec07c", "#8ec07c"],  # 12 super cyan
-	["#83a598", "#83a598"],  # 13 super blue
-	["#1d2021", "#1d2021"],  # 14 super dark background
+        ["#282828", "#282828"],  # 0 background
+        ["#32302f", "#32302f"],  # 1 background lighter
+        ["#98971a", "#98971a"],  # 2 foreground
+        ["#cc241d", "#cc241d"],  # 3 red
+        ["#98971a", "#98971a"],  # 4 green
+        ["#d79921", "#d79921"],  # 5 yellow
+        ["#458588", "#458588"],  # 6 blue
+        ["#ebdbb2", "#ebdbb2"],  # 7 white
+        ["#689d6a", "#689d6a"],  # 8 cyan
+        ["#b16286", "#b16286"],  # 9 magenta
+        ["#928374", "#928374"],  # 10 grey
+        ["#fabd2f", "#fabd2f"],  # 11 orange
+        ["#8ec07c", "#8ec07c"],  # 12 super cyan
+        ["#83a598", "#83a598"],  # 13 super blue
+        ["#1d2021", "#1d2021"],  # 14 super dark background
 ]
 
 #################
