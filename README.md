@@ -1,4 +1,4 @@
-# Dots
+![dots](https://socialify.git.ci/WitherCubes/dots/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
 
 ##### Table of Contents
 1. [Software I use](#software)
