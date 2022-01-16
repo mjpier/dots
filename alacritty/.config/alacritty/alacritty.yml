@@ -1,6 +1,6 @@
 ## Import files (Colors, Fonts, Etc)
 import:
-  - ~/.config/alacritty/colors/gruvbox.yml
+  - ~/.config/alacritty/colors/catppuccin.yml
   - ~/.config/alacritty/fonts.yml
 
 ## Set environment variables

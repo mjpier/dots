@@ -11,6 +11,7 @@ bluez-utils
 brave-bin
 brightnessctl
 bspwm
+catppuccin-gtk-theme
 curl
 dash
 dialog
@@ -28,8 +29,6 @@ fzf
 git
 gparted
 grub
-gruvbox-dark-gtk
-gruvbox-dark-icons-gtk
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -45,6 +44,7 @@ gvfs-mtp
 gvfs-smb
 imagemagick
 jq
+kitty
 kvantum
 libnotify
 libxft-bgra

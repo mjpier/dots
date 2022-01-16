@@ -8,13 +8,13 @@ install-dots:
 	stow -t ~ bspwm
 	stow -t ~ chromium
 	stow -t ~ dark-reader
-	stow -t ~ discord
 	stow -t ~ dunst
 	stow -t ~ dwm
 	stow -t ~ flameshot
 	stow -t ~ git
 	stow -t ~ gtk
 	stow -t ~ htop
+	stow -t ~ kitty
 	stow -t ~ melonDS
 	stow -t ~ mpv
 	stow -t ~ newsboat
@@ -41,13 +41,13 @@ uninstall-dots:
 	stow -t ~ -D bspwm
 	stow -t ~ -D chromium
 	stow -t ~ -D dark-reader
-	stow -t ~ -D discord
 	stow -t ~ -D dunst
 	stow -t ~ -D dwm
 	stow -t ~ -D flameshot
 	stow -t ~ -D git
 	stow -t ~ -D gtk
 	stow -t ~ -D htop
+	stow -t ~ -D kitty
 	stow -t ~ -D melonDS
 	stow -t ~ -D mpv
 	stow -t ~ -D newsboat

@@ -4,7 +4,7 @@
 
 export EDITOR="nvim"
 export VISUAL="nvim"
-export TERMINAL="alacritty"
+export TERMINAL="kitty"
 export BROWSER="brave"
 export VIDEO="mpv"
 export IMAGE="nsxiv"

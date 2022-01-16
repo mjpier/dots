@@ -27,9 +27,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 source ~/.config/nvim/settings/abbrevations.vim
 source ~/.config/nvim/settings/plugins.vim
 source ~/.config/nvim/settings/remaps.vim
-source ~/.config/nvim/plugconfig/airline.vim
+source ~/.config/nvim/plugconfig/catppuccin.vim
 source ~/.config/nvim/plugconfig/coc.vim
-source ~/.config/nvim/plugconfig/gruvbox.vim
+source ~/.config/nvim/plugconfig/lightline.vim
 source ~/.config/nvim/plugconfig/nerdtree.vim
 source ~/.config/nvim/plugconfig/npresence.vim
 source ~/.config/nvim/plugconfig/startify.vim

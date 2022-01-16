@@ -14,7 +14,7 @@
 |----------------------|------------------------------------------------------------------------------------------|
 | Linux Distribution   | [Arch](https://archlinux.org)                                                            |
 | Window manager       | [dwm](https://github.com/WitherCubes/dwm), [Qtile](http://www.qtile.org)                 |
-| Terminal emulator    | [Alacritty](https://github.com/alacritty/alacritty)                                      |
+| Terminal emulator    | [Kitty](https://sw.kovidgoyal.net/kitty)                                                 |
 | Terminal font        | [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) |
 | Shell                | zsh                                                                                      |
 | /bin/sh ->           | dash                                                                                     |
@@ -28,13 +28,14 @@
 
 <a name="gallery"/>
 
-## Gallery (not relevant bcuz switched to gruvbox theme)
+### DWM Catppuccin Rice
+![dwm2](https://github.com/WitherCubes/dots/blob/master/assets/dwm-catppuccin/catppuccin.png)
 
-### DWM
-![dwm_rice](https://github.com/WitherCubes/dots/blob/master/dwm_rice.png)
+### DWM Doom One Rice
+![dwm1](https://github.com/WitherCubes/dots/blob/master/assets/dwm-doom/doom.png)
 
-### Qtile
-![qtile_rice](https://github.com/WitherCubes/dots/blob/master/qtile_rice.png)
+### Qtile Nord Rice
+![qtile1](https://github.com/WitherCubes/dots/blob/master/assets/qtile-nord/nord.png)
 
 <a name="setup"/>
 

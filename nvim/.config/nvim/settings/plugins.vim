@@ -4,13 +4,12 @@ Plug 'junegunn/vim-emoji'
 Plug 'ap/vim-css-color'
 Plug 'kovetskiy/sxhkd-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'itchyny/lightline.vim'
 Plug 'andweeb/presence.nvim'
 Plug 'vimwiki/vimwiki'
 Plug 'preservim/nerdtree'
 Plug 'mhinz/vim-startify'
-Plug 'gruvbox-community/gruvbox'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
@@ -19,9 +18,8 @@ call plug#end()
 " sxhkd hilighting
 " Conquer Of Completion
 " Statusbar
-" Themes for Statusbar
 " Discord Rich Presence
 " VimWiki
 " Start screen
-" Gruvbox ColorScheme
+" Catppuccin ColorScheme
 " Editorconfig

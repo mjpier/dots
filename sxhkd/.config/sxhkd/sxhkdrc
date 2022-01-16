@@ -20,7 +20,7 @@ XF86AudioPrev
 	playerctl previous
 
 super + Return
-	alacritty
+	kitty
 
 super + e
 	thunar
