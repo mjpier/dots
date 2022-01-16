@@ -6,6 +6,7 @@ help:
 install-dots:
 	stow -t ~ alacritty
 	stow -t ~ bspwm
+	stow -t ~ cava
 	stow -t ~ chromium
 	stow -t ~ dark-reader
 	stow -t ~ dunst
@@ -39,6 +40,7 @@ install-dots:
 uninstall-dots:
 	stow -t ~ -D alacritty
 	stow -t ~ -D bspwm
+	stow -t ~ -D cava
 	stow -t ~ -D chromium
 	stow -t ~ -D dark-reader
 	stow -t ~ -D dunst

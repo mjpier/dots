@@ -1,4 +1,5 @@
 arc-kde
+cava
 devour
 lowdown
 nerd-fonts-cascadia-code
