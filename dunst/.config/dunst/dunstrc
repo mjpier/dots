@@ -37,21 +37,21 @@ mouse_right_click = do_action
 
 [urgency_low]
 timeout = 2
-background = "#302d41"
-foreground = "#d9e0ee"
-frame_color = "#f5c2e7"
+background = "#1E1D2F"
+foreground = "#DADAE8"
+frame_color = "#DDB6F2"
 
 [urgency_normal]
 timeout = 5
-background = "#302d41"
-foreground = "#d9e0ee"
-frame_color = "#f5c2e7"
+background = "#1E1D2F"
+foreground = "#DADAE8"
+frame_color = "#DDB6F2"
 
 [urgency_critical]
 timeout = 0
-background = "#302d41"
-foreground = "#d9e0ee"
-frame_color = "#f5c2e7"
+background = "#1E1D2F"
+foreground = "#DADAE8"
+frame_color = "#DDB6F2"
 
 [play_sound]
 summary = "*"
