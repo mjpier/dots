@@ -38,19 +38,19 @@ mouse_right_click = do_action
 [urgency_low]
 timeout = 2
 background = "#1E1D2F"
-foreground = "#DADAE8"
+foreground = "#D9E0EE"
 frame_color = "#DDB6F2"
 
 [urgency_normal]
 timeout = 5
 background = "#1E1D2F"
-foreground = "#DADAE8"
+foreground = "#D9E0EE"
 frame_color = "#DDB6F2"
 
 [urgency_critical]
 timeout = 0
 background = "#1E1D2F"
-foreground = "#DADAE8"
+foreground = "#D9E0EE"
 frame_color = "#DDB6F2"
 
 [play_sound]
