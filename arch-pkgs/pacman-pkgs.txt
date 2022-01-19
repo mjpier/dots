@@ -10,7 +10,6 @@ bluez
 bluez-utils
 brave-bin
 brightnessctl
-bspwm
 catppuccin-gtk-theme
 curl
 dash
@@ -80,7 +79,6 @@ picom
 pipewire
 pipewire-alsa
 pipewire-pulse
-polybar
 python3
 python-pip
 python-pynvim
@@ -95,7 +93,6 @@ spotify
 stow
 sudo
 sxhkd
-sxiv
 terminus-font
 thunar
 thunar-archive-plugin

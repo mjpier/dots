@@ -5,7 +5,6 @@ help:
 
 install-dots:
 	stow -t ~ alacritty
-	stow -t ~ bspwm
 	stow -t ~ cava
 	stow -t ~ chromium
 	stow -t ~ dark-reader
@@ -23,14 +22,12 @@ install-dots:
 	stow -t ~ nvim
 	stow -t ~ paru
 	stow -t ~ picom
-	stow -t ~ polybar
 	stow -t ~ qt
 	stow -t ~ qtile
 	stow -t ~ screenkey
 	stow -t ~ scripts
 	stow -t ~ sxbm
 	stow -t ~ sxhkd
-	stow -t ~ sxiv
 	stow -t ~ volumeicon
 	stow -t ~ wget
 	stow -t ~ x11
@@ -39,7 +36,6 @@ install-dots:
 
 uninstall-dots:
 	stow -t ~ -D alacritty
-	stow -t ~ -D bspwm
 	stow -t ~ -D cava
 	stow -t ~ -D chromium
 	stow -t ~ -D dark-reader
@@ -57,14 +53,12 @@ uninstall-dots:
 	stow -t ~ -D nvim
 	stow -t ~ -D paru
 	stow -t ~ -D picom
-	stow -t ~ -D polybar
 	stow -t ~ -D qt
 	stow -t ~ -D qtile
 	stow -t ~ -D screenkey
 	stow -t ~ -D scripts
 	stow -t ~ -D sxbm
 	stow -t ~ -D sxhkd
-	stow -t ~ -D sxiv
 	stow -t ~ -D volumeicon
 	stow -t ~ -D wget
 	stow -t ~ -D x11
