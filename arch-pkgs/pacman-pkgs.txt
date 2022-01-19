@@ -67,7 +67,6 @@ nm-connection-editor
 nodejs
 noto-fonts
 npm
-opendoas
 os-prober
 p7zip
 pacman-contrib
@@ -94,6 +93,7 @@ rsync
 screenkey
 spotify
 stow
+sudo
 sxhkd
 sxiv
 terminus-font

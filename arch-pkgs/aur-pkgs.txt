@@ -5,5 +5,4 @@ lowdown
 nerd-fonts-cascadia-code
 nerd-fonts-hack
 nsxiv-git
-rdo
 spaceship-prompt-git
