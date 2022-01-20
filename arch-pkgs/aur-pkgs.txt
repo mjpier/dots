@@ -1,6 +1,5 @@
 arc-kde
 cava
-devour
 lowdown
 nerd-fonts-cascadia-code
 nerd-fonts-hack
