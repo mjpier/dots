@@ -79,6 +79,7 @@ pfetch-git
 picom
 pipewire
 pipewire-alsa
+pipewire-jack
 pipewire-pulse
 python3
 python-pip
