@@ -8,7 +8,6 @@ base-devel
 bat
 bluez
 bluez-utils
-brave-bin
 brightnessctl
 catppuccin-gtk-theme
 chromium

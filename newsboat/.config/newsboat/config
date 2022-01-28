@@ -7,8 +7,7 @@ color listfocus_unread yellow default bold
 color info red black bold
 color article white default bold
 
-macro b set browser "brave %u" ; open-in-browser ; set browser "brave %u"
-macro m set browser "devour mpv --ytdl-format=22 %u" ; open-in-browser ; set browser "brave %u"
+macro b set browser "chromium %u" ; open-in-browser ; set browser "chromium %u"
 
 highlight all "---.*---" yellow
 highlight feedlist ".*(0/0))" black

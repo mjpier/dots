@@ -5,7 +5,7 @@
 export EDITOR="nvim"
 export VISUAL="nvim"
 export TERMINAL="kitty"
-export BROWSER="brave"
+export BROWSER="chromium"
 export VIDEO="mpv"
 export IMAGE="nsxiv"
 export PATH=$HOME/.local/bin:$PATH
