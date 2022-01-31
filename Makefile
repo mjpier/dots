@@ -27,6 +27,7 @@ install-dots:
 	stow -t ~ scripts
 	stow -t ~ sxbm
 	stow -t ~ sxhkd
+	stow -t ~ vimium
 	stow -t ~ volumeicon
 	stow -t ~ wget
 	stow -t ~ x11
@@ -57,6 +58,7 @@ uninstall-dots:
 	stow -t ~ -D scripts
 	stow -t ~ -D sxbm
 	stow -t ~ -D sxhkd
+	stow -t ~ -D vimium
 	stow -t ~ -D volumeicon
 	stow -t ~ -D wget
 	stow -t ~ -D x11
