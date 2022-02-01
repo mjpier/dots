@@ -1,25 +1,48 @@
-" Vim Plugins
 call plug#begin('~/.config/nvim/plugins')
-Plug 'junegunn/vim-emoji'
-Plug 'ap/vim-css-color'
-Plug 'kovetskiy/sxhkd-vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'itchyny/lightline.vim'
-Plug 'andweeb/presence.nvim'
-Plug 'vimwiki/vimwiki'
-Plug 'preservim/nerdtree'
-Plug 'mhinz/vim-startify'
-Plug 'catppuccin/nvim', {'as': 'catppuccin'}
-Plug 'editorconfig/editorconfig-vim'
-call plug#end()
 
 " Emoji Support
+Plug 'junegunn/vim-emoji'
+
 " Color previews
+Plug 'ap/vim-css-color'
+
 " sxhkd hilighting
-" Conquer Of Completion
-" Statusbar
+Plug 'kovetskiy/sxhkd-vim'
+
 " Discord Rich Presence
+Plug 'andweeb/presence.nvim'
+
 " VimWiki
+Plug 'vimwiki/vimwiki'
+
+" Nerdtree
+Plug 'preservim/nerdtree'
+
 " Start screen
+Plug 'mhinz/vim-startify'
+
 " Catppuccin ColorScheme
-" Editorconfig
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+
+" EditorConfig
+Plug 'editorconfig/editorconfig-vim'
+
+" Statusbar
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+
+" Treesitter
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
+" Native LSP
+Plug 'neovim/nvim-lspconfig'
+
+" LSP Autocomplete
+Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+
+call plug#end()

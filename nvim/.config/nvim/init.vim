@@ -1,6 +1,8 @@
 syntax on
 
 set smartindent
+set termguicolors
+set background=dark
 set number relativenumber
 set nowrap
 set nohlsearch
@@ -27,10 +29,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 source ~/.config/nvim/settings/abbrevations.vim
 source ~/.config/nvim/settings/plugins.vim
 source ~/.config/nvim/settings/remaps.vim
-source ~/.config/nvim/plugconfig/catppuccin.vim
-source ~/.config/nvim/plugconfig/coc.vim
-source ~/.config/nvim/plugconfig/lightline.vim
-source ~/.config/nvim/plugconfig/nerdtree.vim
-source ~/.config/nvim/plugconfig/npresence.vim
-source ~/.config/nvim/plugconfig/startify.vim
-source ~/.config/nvim/plugconfig/vimwiki.vim
+source ~/.config/nvim/plugconfig/_nerdtree.vim
+source ~/.config/nvim/plugconfig/_startify.vim
+
+" Source Lua config
+lua require("withercubes")

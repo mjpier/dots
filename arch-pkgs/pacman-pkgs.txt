@@ -79,9 +79,9 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+pyright
 python3
 python-pip
-python-pynvim
 qt5ct
 qt5-styleplugins
 reflector

@@ -18,7 +18,7 @@
 | Terminal font        | [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) |
 | Shell                | zsh                                                                                      |
 | /bin/sh ->           | dash                                                                                     |
-| text editor          | [Neovim](https://github.com/neovim/neovim)                                               |
+| text editor          | [Neovim Nightly](https://github.com/neovim/neovim)                                       |
 | RSS reader           | [Newsboat](https://github.com/newsboat/newsboat)                                         |
 | Web Browser          | [Chromium](https://www.chromium.org/chromium-projects)                                   |
 | Video player         | [mpv](https://mpv.io)                                                                    |
