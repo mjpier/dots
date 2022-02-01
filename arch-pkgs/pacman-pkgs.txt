@@ -56,7 +56,6 @@ mousepad
 mpv
 mtools
 neofetch
-neovim
 net-tools
 networkmanager
 network-manager-applet
@@ -85,7 +84,6 @@ python-pip
 python-pynvim
 qt5ct
 qt5-styleplugins
-qtile
 reflector
 ripgrep
 rsync

@@ -22,7 +22,6 @@ install-dots:
 	stow -t ~ paru
 	stow -t ~ picom
 	stow -t ~ qt
-	stow -t ~ qtile
 	stow -t ~ screenkey
 	stow -t ~ scripts
 	stow -t ~ sxbm
@@ -54,7 +53,6 @@ uninstall-dots:
 	stow -t ~ -D paru
 	stow -t ~ -D picom
 	stow -t ~ -D qt
-	stow -t ~ -D qtile
 	stow -t ~ -D screenkey
 	stow -t ~ -D scripts
 	stow -t ~ -D sxbm

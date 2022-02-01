@@ -1,6 +1,7 @@
 arc-kde
 cava
 lowdown
+neovim-nightly-bin
 nerd-fonts-cascadia-code
 nerd-fonts-hack
 nsxiv-git

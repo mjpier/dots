@@ -13,7 +13,7 @@
 | Software             | Name                                                                                     |
 |----------------------|------------------------------------------------------------------------------------------|
 | Linux Distribution   | [Arch](https://archlinux.org)                                                            |
-| Window manager       | [dwm](https://github.com/WitherCubes/sde), [Qtile](http://www.qtile.org)                 |
+| Window manager       | [dwm](https://github.com/WitherCubes/sde)                                                |
 | Terminal emulator    | [Kitty](https://sw.kovidgoyal.net/kitty)                                                 |
 | Terminal font        | [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) |
 | Shell                | zsh                                                                                      |
@@ -33,9 +33,6 @@
 
 ### DWM Doom One Rice
 ![dwm1](https://github.com/WitherCubes/dots/blob/master/assets/dwm-doom/doom.png)
-
-### Qtile Nord Rice
-![qtile1](https://github.com/WitherCubes/dots/blob/master/assets/qtile-nord/nord.png)
 
 <a name="setup"/>
 
