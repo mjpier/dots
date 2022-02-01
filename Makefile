@@ -31,6 +31,7 @@ install-dots:
 	stow -t ~ volumeicon
 	stow -t ~ wget
 	stow -t ~ x11
+	stow -t ~ xdg
 	stow -t ~ zathura
 	stow -t ~ zsh
 
@@ -62,5 +63,6 @@ uninstall-dots:
 	stow -t ~ -D volumeicon
 	stow -t ~ -D wget
 	stow -t ~ -D x11
+	stow -t ~ -D xdg
 	stow -t ~ -D zathura
 	stow -t ~ -D zsh
