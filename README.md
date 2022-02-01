@@ -13,18 +13,18 @@
 | Software             | Name                                                                                     |
 |----------------------|------------------------------------------------------------------------------------------|
 | Linux Distribution   | [Arch](https://archlinux.org)                                                            |
-| Window manager       | [dwm](https://github.com/WitherCubes/dwm), [Qtile](http://www.qtile.org)                 |
+| Window manager       | [dwm](https://github.com/WitherCubes/sde), [Qtile](http://www.qtile.org)                 |
 | Terminal emulator    | [Kitty](https://sw.kovidgoyal.net/kitty)                                                 |
 | Terminal font        | [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) |
 | Shell                | zsh                                                                                      |
 | /bin/sh ->           | dash                                                                                     |
 | text editor          | [Neovim](https://github.com/neovim/neovim)                                               |
 | RSS reader           | [Newsboat](https://github.com/newsboat/newsboat)                                         |
-| Web Browser          | [Brave](https://brave.com)                                                               |
+| Web Browser          | [Chromium](https://www.chromium.org/chromium-projects)                                   |
 | Video player         | [mpv](https://mpv.io)                                                                    |
 | Document reader      | [zathura](https://git.pwmt.org/pwmt/zathura)                                             |
 | Image viewer         | [nsxiv](https://github.com/nsxiv/nsxiv)                                                  |
-| Screen locker        | [slock](https://github.com/WitherCubes/slock)                                            |
+| Screen locker        | [slock](https://github.com/WitherCubes/sde)                                              |
 
 <a name="gallery"/>
 
