@@ -89,3 +89,27 @@ require("presence"):setup({
 
 -- Vimwiki
 vim.g.vimwiki_list = {{path = '~/.local/share/vimwiki'}}
+
+-- TrueZen (Distraction Free)
+vim.cmd[[map <F12> <cmd>TZAtaraxis<cr>]]
+
+local true_zen = require("true-zen")
+true_zen.setup({
+    modes = {
+        ataraxis = {
+            left_padding = 20,
+            right_padding = 20,
+            top_padding = 1,
+            bottom_padding = 1,
+            ideal_writing_area_width = {0},
+            auto_padding = false,
+            quit = "untoggle",
+        },
+    },
+    integrations = {
+        lualine = false,
+    },
+    misc = {
+        cursor_by_mode = true,
+    }
+})

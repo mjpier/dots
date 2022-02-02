@@ -1,4 +1,4 @@
-==These are great resources to learn Groff/Troff, provided by Gavin Freeborn==
+= These are great resources to learn Groff/Troff, provided by Gavin Freeborn =
 
 [[http://floppsie.comp.glam.ac.uk/Glamorgan/gaius/web/pic.html|GNU Pic only but still a good resource since most of the gnu extensions are pointed out]]
 [[http://doc.cat-v.org/unix/v8/picmemo.pdf|Pic A Graphics Language for Typesetting Revised User Manual - Most compatible documentation on PIC]]

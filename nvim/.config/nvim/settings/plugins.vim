@@ -15,6 +15,9 @@ Plug 'andweeb/presence.nvim'
 " VimWiki
 Plug 'vimwiki/vimwiki'
 
+" TrueZen (Distraction Free)
+Plug 'Pocco81/TrueZen.nvim'
+
 " Nerdtree
 Plug 'preservim/nerdtree'
 

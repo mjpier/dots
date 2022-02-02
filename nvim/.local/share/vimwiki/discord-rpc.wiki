@@ -1,4 +1,4 @@
-=List Of Discord RPC for various programs=
+= List Of Discord RPC for various programs =
 
 * [[https://github.com/andweeb/presence.nvim|N Presence]] -- Neovim
 * [[https://github.com/Mstrodl/elcord|Elcord]] -- Emacs

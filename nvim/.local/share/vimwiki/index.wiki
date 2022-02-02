@@ -1,6 +1,6 @@
-=Welcome to VimWiki=
+= Welcome to VimWiki =
 
-=Knowledge Base=
+= Knowledge Base =
 * [[groff|Groff]] -- Great resources to learn groff/troff.
 * [[discord-rpc|Discord RPC]] -- List of Discord RPC for various programs.
-* [[gpg|GNUPG]] -- GPG links.
+* [[birthday|Birthday]] -- Everyone's birthday.
