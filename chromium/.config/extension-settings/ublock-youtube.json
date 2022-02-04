@@ -1,0 +1,129 @@
+{
+  "whitelisted": [
+    {
+      "id": "UC9H0HzpKf5JlazkADWnW1Jw",
+      "username": "",
+      "display": "bashbunni"
+    },
+    {
+      "id": "UCld68syR8Wi-GY_n4CaoJGA",
+      "username": "",
+      "display": "Brodie Robertson"
+    },
+    {
+      "id": "UCngn7SVujlvskHRvRKc1cTw",
+      "username": "",
+      "display": "BugsWriter"
+    },
+    {
+      "id": "UCg6gPGh8HU2U01vaFCAsvmQ",
+      "username": "",
+      "display": "Chris Titus Tech"
+    },
+    {
+      "id": "UCNwGa76xVVwdEVToRZBIUIg",
+      "username": "",
+      "display": "DenshiVideo"
+    },
+    {
+      "id": "UCVls1GmFKf6WlTraIb_IaJg",
+      "username": "",
+      "display": "DistroTube"
+    },
+    {
+      "id": "UC5KDiSAFxrDWhmysBcNqtMA",
+      "username": "",
+      "display": "Eric Murphy"
+    },
+    {
+      "id": "UCo3Dtx4G0yx8y2cw4bQkRrA",
+      "username": "",
+      "display": "Exordium"
+    },
+    {
+      "id": "UCsBjURrPoezykLs9EqgamOA",
+      "username": "",
+      "display": "Fireship"
+    },
+    {
+      "id": "UCJetJ7nDNLlEzDLXv7KIo0w",
+      "username": "",
+      "display": "Gavin Freeborn"
+    },
+    {
+      "id": "UC2eYFnH61tmytImy1mTYvhA",
+      "username": "",
+      "display": "Luke Smith"
+    },
+    {
+      "id": "UCMiInY8BhSUtCarO6uu6i_g",
+      "username": "",
+      "display": "Mark McNally"
+    },
+    {
+      "id": "UC7YOGHUfC1Tb6E4pudI9STA",
+      "username": "",
+      "display": "Mental Outlaw"
+    },
+    {
+      "id": "UCxaaULLk6UCnRl5VKRc7G0A",
+      "username": "",
+      "display": "No Text To Speech"
+    },
+    {
+      "id": "UCd6vEDS3SOhWbXZrxbrf_bw",
+      "username": "samtimenews",
+      "display": "SAMTIME"
+    },
+    {
+      "id": "UCtMVHI3AJD4Qk4hcbZnI9ZQ",
+      "username": "",
+      "display": "SomeOrdinaryGamers"
+    },
+    {
+      "id": "UCovndCJjH4fO1DW_ZnM0cZw",
+      "username": "",
+      "display": "SomeOrdinaryPodcast"
+    },
+    {
+      "id": "UCBq5p-xOla8xhnrbhu8AIAg",
+      "username": "",
+      "display": "Tech Over Tea"
+    },
+    {
+      "id": "UCs6KfncB4OV6Vug4o_bzijg",
+      "username": "",
+      "display": "Techlore"
+    },
+    {
+      "id": "UCylGUf9BvQooEFjgdNudoQg",
+      "username": "",
+      "display": "The Linux Cast"
+    },
+    {
+      "id": "UCd3dNckv1Za2coSaHGHl5aA",
+      "username": "",
+      "display": "TJ DeVries"
+    },
+    {
+      "id": "UCsnGwSIHyoYN0kiINAGUKxg",
+      "username": "",
+      "display": "Wolfgang's Channel"
+    }
+  ],
+  "blacklisted": [],
+  "muted": [],
+  "exclude": [],
+  "muteAll": false,
+  "skipOverlays": true,
+  "skipAdErrors": true,
+  "pauseAfterAd": false,
+  "autoWhite": false,
+  "autoSkip": false,
+  "autoSkipSeconds": 30,
+  "keyboardSkip": true,
+  "verifyWl": true,
+  "limitAds": false,
+  "limitAdsQty": 2,
+  "forceWhite": false
+}
