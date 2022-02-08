@@ -10,7 +10,7 @@ lxsession &
 dwmblocks &
 sxhkd &
 xrdb -load ~/.config/x11/xresources &
-setbg ~/.local/share/wall/pink-cat.png &
+setbg &
 nm-applet &
 blueman-applet &
 volumeicon &
