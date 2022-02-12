@@ -24,6 +24,7 @@ install-dots:
 	stow -t ~ qt
 	stow -t ~ screenkey
 	stow -t ~ scripts
+	stow -t ~ spectrwm
 	stow -t ~ sxbm
 	stow -t ~ sxhkd
 	stow -t ~ volumeicon
@@ -54,6 +55,7 @@ uninstall-dots:
 	stow -t ~ -D qt
 	stow -t ~ -D screenkey
 	stow -t ~ -D scripts
+	stow -t ~ -D spectrwm
 	stow -t ~ -D sxbm
 	stow -t ~ -D sxhkd
 	stow -t ~ -D volumeicon

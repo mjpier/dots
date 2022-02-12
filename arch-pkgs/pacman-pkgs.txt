@@ -88,6 +88,7 @@ reflector
 ripgrep
 rsync
 screenkey
+spectrwm
 spotify
 stow
 sudo
@@ -99,6 +100,7 @@ thunar-media-tags-plugin
 thunar-volman
 tlp
 transmission-gtk
+trayer
 ttf-font-awesome
 ttf-indic-otf
 ttf-jetbrains-mono

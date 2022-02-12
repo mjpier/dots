@@ -21,12 +21,3 @@ XF86AudioPrev
 
 Print
 	flameshot gui
-
-super + Return
-	kitty
-
-super + e
-	thunar
-
-super + r
-	dmenu_run

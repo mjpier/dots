@@ -13,7 +13,7 @@
 | Software             | Name                                                                                     |
 |----------------------|------------------------------------------------------------------------------------------|
 | Linux Distribution   | [Arch](https://archlinux.org)                                                            |
-| Window manager       | [dwm](https://github.com/WitherCubes/sde)                                                |
+| Window manager       | [dwm](https://github.com/WitherCubes/sde), [spectrwm](https://github.com/conformal/spectrwm) |
 | Terminal emulator    | [Kitty](https://sw.kovidgoyal.net/kitty)                                                 |
 | Terminal font        | [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) |
 | Shell                | zsh                                                                                      |
@@ -28,11 +28,11 @@
 
 <a name="gallery"/>
 
+### Spectrwm Catppuccin Rice
+![spectrwm1](https://github.com/WitherCubes/dots/blob/master/assets/spectrwm-catppuccin/catppuccin.png)
+
 ### DWM Catppuccin Rice
 ![dwm2](https://github.com/WitherCubes/dots/blob/master/assets/dwm-catppuccin/catppuccin.png)
-
-### DWM Doom One Rice
-![dwm1](https://github.com/WitherCubes/dots/blob/master/assets/dwm-doom/doom.png)
 
 <a name="setup"/>
 
