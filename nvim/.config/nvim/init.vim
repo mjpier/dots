@@ -1,57 +1,21 @@
-" Syntax highlighting
-syntax on
+" Sets
+lua require("sets")
 
-" Indentation (Spaces > Tabs)
-set smartindent
-set tabstop=4
-set expandtab ts=4 sw=4 ai
+" Autocommands
+lua require("autocmd")
 
-" Dark Colors
-set termguicolors
-set background=dark
+" Plugins
+lua require("plugins")
 
-" Line Number
-set number relativenumber
+" Keybindings
+lua require("keybinds")
 
-" No Line Wrap
-set nowrap
-
-" Search Settings
-set nohlsearch
-set ignorecase
-set smartcase
-set incsearch
-
-" No Annoying Sound
-set noerrorbells
-
-" Backups are for Boomers
-set nobackup
-set noswapfile
-
-" Clipboard
-set clipboard+=unnamedplus
-
-" Scroll and Enable mouse
-set scrolloff=8
-set mouse=a
-
-" Buffer Position
-set wildmode=longest,list,full
-set splitbelow splitright
-
-" Auto Center
-autocmd InsertEnter * norm zz
-
-" Remove trailing whitespaces
-autocmd BufWritePre * :%s/\s\+$//e
-
-" Sources
-source ~/.config/nvim/settings/abbrevations.vim
-source ~/.config/nvim/settings/plugins.vim
-source ~/.config/nvim/settings/remaps.vim
-source ~/.config/nvim/plugconfig/_nerdtree.vim
-source ~/.config/nvim/plugconfig/_startify.vim
-
-" Source Lua config
-lua require("withercubes")
+" Plugins Config
+lua require("plugconfig.catppuccin")
+lua require("plugconfig.lualine")
+lua require("plugconfig.native-lsp")
+lua require("plugconfig.npresence")
+lua require("plugconfig.nvim-cmp")
+lua require("plugconfig.treesitter")
+lua require("plugconfig.truzen")
+lua require("plugconfig.vimwiki")
