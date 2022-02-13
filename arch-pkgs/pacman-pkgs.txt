@@ -79,6 +79,7 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+playerctl
 pyright
 python3
 python-pip
