@@ -42,5 +42,5 @@ set.scrolloff = 8
 set.mouse = 'a'
 
 -- Buffer Position
-set.wildmode = longest,list,full
-set.splitbelow = splitright
+set.wildmode = 'longest','list','full'
+set.splitright = true
