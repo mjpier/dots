@@ -1,4 +1,7 @@
-# Enable colors and change prompt:
+# Stupid fricking prompt to work
+precmd_functions=""
+
+# Enable colors:
 autoload -U colors && colors
 
 ### Configure color-scheme
@@ -39,14 +42,10 @@ bindkey '^[[6~' end-of-buffer-or-history
 bindkey '^[[Z' undo
 bindkey '^ ' autosuggest-accept
 
-### Sources
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-source "$HOME/.config/zsh/spaceshiprc"
 source "$HOME/.config/zsh/aliasrc"
 source "$HOME/.config/zsh/functionsrc"
 
-### Startup
 pfetch
-autoload -U promptinit; promptinit
-prompt spaceship
+eval "$(starship init zsh)"
