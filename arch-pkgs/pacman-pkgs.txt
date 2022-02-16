@@ -44,7 +44,6 @@ gvfs-smb
 imagemagick
 jq
 kitty
-kvantum
 libnotify
 libxft-bgra
 linux-headers
@@ -83,8 +82,6 @@ playerctl
 pyright
 python3
 python-pip
-qt5ct
-qt5-styleplugins
 reflector
 ripgrep
 rsync

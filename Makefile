@@ -21,7 +21,6 @@ install-dots:
 	stow -t ~ nvim
 	stow -t ~ paru
 	stow -t ~ picom
-	stow -t ~ qt
 	stow -t ~ screenkey
 	stow -t ~ scripts
 	stow -t ~ spectrwm
@@ -53,7 +52,6 @@ uninstall-dots:
 	stow -t ~ -D nvim
 	stow -t ~ -D paru
 	stow -t ~ -D picom
-	stow -t ~ -D qt
 	stow -t ~ -D screenkey
 	stow -t ~ -D scripts
 	stow -t ~ -D spectrwm
