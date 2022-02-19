@@ -4,13 +4,13 @@ walldir="$HOME/pix/save"
 maxpage=5
 tagoptions="#minimalism\n#fortnite\n#fantasy girl\n#digital art\n#anime\n#4K\n#nature"
 if [ -z $1 ]; then
-    query=$(echo -e $tagoptions | dmenu -p "Search Wallhaven: ")
+    query=$(echo -e $tagoptions | dmenu -i -p "Search Wallhaven: ")
 else
     query=$1
 fi
 
 sortoptions="date_added\nrelevance\nrandom\nviews\nfavorites\ntoplist"
-sorting=$(echo -e $sortoptions | dmenu -p "Sort Order: ")
+sorting=$(echo -e $sortoptions | dmenu -i -p "Sort Order: ")
 
 query="$(sed 's/#//g' <<<$query)"
 query="$(sed 's/ /+/g' <<<$query)"

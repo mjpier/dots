@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Get user selection via dmenu from emoji file.
-chosen=$(awk -F'\t' {'print $1 "    " $4 "    (" $5 ")"'} $HOME/.local/share/emoji | dmenu -l 10 | sed "s/ .*//")
+chosen=$(awk -F'\t' {'print $1 "    " $4 "    (" $5 ")"'} $HOME/.local/share/emoji | dmenu -i -l 10 | sed "s/ .*//")
 
 # Exit if none chosen.
 [ -z "$chosen" ] && exit
