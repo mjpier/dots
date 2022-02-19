@@ -1,5 +1,3 @@
-# **WARNING! THE DOTFILES ARE CURRENTLY UNSTABLE AND BREAK A LOT BECAUSE I AM MIGRATING FROM ARCH TO VOID. THESE DOTFILES ARE SUBJECT TO CHANGE AND BREAK, SO USE THESE DOTFILES AT YOUR OWN RISK. I WILL REMOVE THIS SECTION WHEN I COMPLETE MY MIGRATION. THANK YOU FOR YOUR PATIENCE.**
-
 ![dots](https://socialify.git.ci/WitherCubes/dots/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
 
 ##### Table of Contents
@@ -14,7 +12,7 @@
 ## Software I use
 | Software             | Name                                                                                     |
 |----------------------|------------------------------------------------------------------------------------------|
-| Linux Distribution   | [Arch](https://archlinux.org)                                                            |
+| Linux Distribution   | [Void](https://voidlinux.org)                                                            |
 | Window manager       | [dwm](https://github.com/WitherCubes/sde), [spectrwm](https://github.com/conformal/spectrwm) |
 | Terminal emulator    | [Kitty](https://sw.kovidgoyal.net/kitty)                                                 |
 | Terminal font        | [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) |

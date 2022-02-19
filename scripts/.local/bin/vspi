@@ -1,0 +1,24 @@
+#!/bin/sh
+
+DIR1=$HOME/.local/src/void-packages
+DIR2=$HOME/.local/src/void-packages/srcpkgs
+CHECK="$(xbps-query -s "$1" | wc -l)"
+
+if [ "$CHECK" -eq "1" ]
+then
+    printf "You are good to go, program already installed!"
+    sleep 2
+    exit
+else
+    cd "$DIR1" || exit
+    git pull
+
+    cd "$DIR2" || exit
+    if [ -d "$1" ]
+    then
+        cd "$DIR1" || exit
+        ./xbps-src pkg "$1" && sudo xi "$1"
+    else
+        printf "Not found"
+    fi
+fi

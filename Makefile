@@ -27,7 +27,7 @@ install-dots:
 	stow -t ~ starship
 	stow -t ~ sxbm
 	stow -t ~ sxhkd
-	stow -t ~ volumeicon
+	stow -t ~ void-cfg
 	stow -t ~ wget
 	stow -t ~ x11
 	stow -t ~ xdg
@@ -58,7 +58,7 @@ uninstall-dots:
 	stow -t ~ -D starship
 	stow -t ~ -D sxbm
 	stow -t ~ -D sxhkd
-	stow -t ~ -D volumeicon
+	stow -t ~ -D void-cfg
 	stow -t ~ -D wget
 	stow -t ~ -D x11
 	stow -t ~ -D xdg

@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Update main repos
+sudo xbps-install -Su
+
+# Update xbps-src packages
+if [ ! -d $HOME/.local/src/void-packages ]
+then
+    git clone --depth=1 https://github.com/void-linux/void-packages.git $HOME/.local/src/void-packages
+else
+    cd $HOME/.local/src/void-packages
+    git reset --hard HEAD
+    git pull
+    cd $HOME || exit
+fi
+
+if [ ! -d $HOME/.local/src/void-packages/masterdir ]
+then
+    cd $HOME/.local/src/void-packages
+    ./xbps-src binary-bootstrap
+    cd $HOME || exit
+else
+    cd $HOME/.local/src/void-packages
+    ./xbps-src bootstrap-update
+    cd $HOME || exit
+fi
+
+echo XBPS_ALLOW_RESTRICTED=yes > $HOME/.local/src/void-packages/etc/conf
+
+$HOME/.local/src/void-packages/xbps-src update-sys

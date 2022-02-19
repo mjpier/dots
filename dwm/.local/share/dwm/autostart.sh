@@ -1,6 +1,6 @@
 #!/bin/sh
 
-killall -9 picom dunst sxhkd nm-applet blueman-applet volumeicon flameshot
+pkill picom dunst sxhkd nm-applet blueman-applet volumeicon flameshot
 
 picom &
 xrandr --dpi 96 &
