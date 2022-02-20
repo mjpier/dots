@@ -44,7 +44,10 @@ intel-video-accel
 jq
 kitty
 libnotify
-libXft
+libXrandr-devel
+freetype-devel
+libXinerama-devel
+libXft-devel
 linux-headers
 lowdown
 lxappearance
