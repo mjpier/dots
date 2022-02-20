@@ -120,3 +120,4 @@ zathura-pdf-poppler
 zsh
 zsh-autosuggestions
 zsh-syntax-highlighting
+indic-otf
