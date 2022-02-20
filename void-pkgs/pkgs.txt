@@ -23,6 +23,7 @@ flameshot
 font-awesome
 fonts-roboto-ttf
 fzf
+gcc
 git
 gnupg2
 gparted
