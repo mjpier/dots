@@ -47,7 +47,6 @@ libnotify
 libXrandr-devel
 freetype-devel
 libXinerama-devel
-libXft-devel
 linux-headers
 lowdown
 lxappearance
