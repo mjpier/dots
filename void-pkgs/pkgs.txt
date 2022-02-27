@@ -8,7 +8,7 @@ bluez
 brightnessctl
 cava
 chromium
-chronyd
+chrony
 curl
 dash
 dbus
