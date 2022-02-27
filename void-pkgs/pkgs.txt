@@ -4,6 +4,7 @@ alsa-plugins-pulseaudio
 arc-theme
 aria2
 bat
+base-devel
 bluez
 brightnessctl
 cava
@@ -45,6 +46,7 @@ jq
 kitty
 libnotify
 libXrandr-devel
+libXft-devel
 freetype-devel
 libXinerama-devel
 linux-headers
@@ -59,7 +61,7 @@ neofetch
 neovim
 nerd-fonts
 net-tools
-Networkmanager
+NetworkManager
 network-manager-applet
 newsboat
 nodejs-devel
@@ -93,7 +95,6 @@ transmission-gtk
 trayer-srg
 ufw
 unrar
-vi
 vim
 void-repo-nonfree
 vscode
