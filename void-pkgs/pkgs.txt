@@ -19,6 +19,7 @@ dunst
 elogind
 engrampa
 exa
+firefox
 ffmpeg
 flameshot
 font-awesome

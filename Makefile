@@ -6,7 +6,6 @@ help:
 install-dots:
 	stow -t ~ alacritty
 	stow -t ~ cava
-	stow -t ~ chromium
 	stow -t ~ dunst
 	stow -t ~ dwm
 	stow -t ~ flameshot
@@ -37,7 +36,6 @@ install-dots:
 uninstall-dots:
 	stow -t ~ -D alacritty
 	stow -t ~ -D cava
-	stow -t ~ -D chromium
 	stow -t ~ -D dunst
 	stow -t ~ -D dwm
 	stow -t ~ -D flameshot

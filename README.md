@@ -20,7 +20,7 @@
 | /bin/sh ->           | dash                                                                                     |
 | text editor          | [Neovim Nightly](https://github.com/neovim/neovim)                                       |
 | RSS reader           | [Newsboat](https://github.com/newsboat/newsboat)                                         |
-| Web Browser          | [Chromium](https://www.chromium.org/chromium-projects)                                   |
+| Web Browser          | [Firefox](https://www.mozilla.org/firefox)                                               |
 | Video player         | [mpv](https://mpv.io)                                                                    |
 | Document reader      | [zathura](https://git.pwmt.org/pwmt/zathura)                                             |
 | Image viewer         | [nsxiv](https://github.com/nsxiv/nsxiv)                                                  |
