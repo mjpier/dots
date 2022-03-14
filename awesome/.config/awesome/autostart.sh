@@ -7,11 +7,12 @@ xrandr --dpi 96 &
 xsetroot -cursor_name left_ptr &
 dunst &
 lxsession &
-sxhkd -c ~/.config/spectrwm/sxhkdrc &
+sxhkd &
 xrdb -load ~/.config/x11/xresources &
-setbg ~/.local/share/wall/evening-sky.png &
+setbg ~/.local/share/wall/void.png &
 nm-applet &
 blueman-applet &
 flameshot &
 brightnessctl s 5 &
 thunar --daemon &
+$HOME/.config/polybar/awesome.sh &

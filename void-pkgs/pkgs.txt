@@ -3,6 +3,7 @@ alacritty
 alsa-plugins-pulseaudio
 arc-theme
 aria2
+awesome
 bat
 base-devel
 bluez
@@ -45,6 +46,7 @@ intel-ucode
 intel-video-accel
 jq
 kitty
+lf
 libnotify
 libXrandr-devel
 libXft-devel
@@ -78,12 +80,12 @@ pfetch
 picom
 playerctl
 polkit
+polybar
 psmisc
 pulseaudio
 python3-devel
 rsync
 screenkey
-spectrwm
 starship
 stow
 sxhkd
@@ -93,7 +95,7 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 transmission-gtk
-trayer-srg
+ueberzug
 ufw
 unrar
 vim

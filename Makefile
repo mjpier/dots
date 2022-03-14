@@ -5,14 +5,15 @@ help:
 
 install-dots:
 	stow -t ~ alacritty
+	stow -t ~ awesome
 	stow -t ~ cava
 	stow -t ~ dunst
-	stow -t ~ dwm
 	stow -t ~ flameshot
 	stow -t ~ git
 	stow -t ~ gtk
 	stow -t ~ htop
 	stow -t ~ kitty
+	stow -t ~ lf
 	stow -t ~ melonDS
 	stow -t ~ mpv
 	stow -t ~ newsboat
@@ -20,9 +21,9 @@ install-dots:
 	stow -t ~ nvim
 	stow -t ~ paru
 	stow -t ~ picom
+	stow -t ~ polybar
 	stow -t ~ screenkey
 	stow -t ~ scripts
-	stow -t ~ spectrwm
 	stow -t ~ starship
 	stow -t ~ sxbm
 	stow -t ~ sxhkd
@@ -35,14 +36,15 @@ install-dots:
 
 uninstall-dots:
 	stow -t ~ -D alacritty
+	stow -t ~ -D awesome
 	stow -t ~ -D cava
 	stow -t ~ -D dunst
-	stow -t ~ -D dwm
 	stow -t ~ -D flameshot
 	stow -t ~ -D git
 	stow -t ~ -D gtk
 	stow -t ~ -D htop
 	stow -t ~ -D kitty
+	stow -t ~ -D lf
 	stow -t ~ -D melonDS
 	stow -t ~ -D mpv
 	stow -t ~ -D newsboat
@@ -50,9 +52,9 @@ uninstall-dots:
 	stow -t ~ -D nvim
 	stow -t ~ -D paru
 	stow -t ~ -D picom
+	stow -t ~ -D polybar
 	stow -t ~ -D screenkey
 	stow -t ~ -D scripts
-	stow -t ~ -D spectrwm
 	stow -t ~ -D starship
 	stow -t ~ -D sxbm
 	stow -t ~ -D sxhkd

@@ -26,7 +26,13 @@ super + Return
 	kitty
 
 super + e
-	thunar
+	kitty -e "lfub"
 
 super + r
-	dmenu_run
+	dmenu_run -i
+
+super + shift + Delete
+	slock
+
+super + z
+	~/.config/awesome/toggle-polybar.sh
