@@ -28,11 +28,7 @@
 
 <a name="gallery"/>
 
-### Spectrwm Catppuccin Rice
-![spectrwm1](https://github.com/WitherCubes/dots/blob/master/assets/spectrwm-catppuccin/catppuccin.png)
-
-### DWM Catppuccin Rice
-![dwm2](https://github.com/WitherCubes/dots/blob/master/assets/dwm-catppuccin/catppuccin.png)
+![awesome1](https://github.com/WitherCubes/dots/blob/master/assets/awesome-catppuccin/catppuccin.png)
 
 <a name="setup"/>
 
