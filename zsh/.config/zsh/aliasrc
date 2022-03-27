@@ -3,7 +3,7 @@ alias ls='exa --color=always --group-directories-first'
 alias la='exa -lah --color=always --group-directories-first'
 alias df='df -h'
 alias free='free -m'
-alias cls="clear && pfetch"
+alias cls="clear && rxfetch"
 alias rickroll="curl -s -L http://bit.ly/10hA8iC | bash"
 alias mirror="sudo reflector --sort rate -l 30 --verbose --save /etc/pacman.d/mirrorlist"
 alias ytbdl="youtube-dl -f bestvideo+bestaudio -o '%(title)s.%(ext)s' --external-downloader=aria2c"

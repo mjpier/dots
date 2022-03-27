@@ -47,5 +47,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source "$HOME/.config/zsh/aliasrc"
 source "$HOME/.config/zsh/functionsrc"
 
-pfetch
+rxfetch
 eval "$(starship init zsh)"
